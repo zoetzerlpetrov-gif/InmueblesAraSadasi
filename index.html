@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mapa Inmobiliario México — ARA · SADASI</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #111; color: #e8e8e8; }
+
+  /* ── HEADER ── */
+  #header {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 1100;
+    background: #0d0d0d;
+    border-bottom: 1px solid #2a2a2a;
+    display: flex; align-items: center; gap: 12px;
+    padding: 8px 16px; height: 52px;
+  }
+  #header h1 { font-size: 15px; font-weight: 600; letter-spacing: .3px; white-space: nowrap; }
+  #header h1 span.ara { color: #4da6ff; }
+  #header h1 span.sadasi { color: #ff9f40; }
+  .badge { font-size: 11px; background: #222; border: 1px solid #333; border-radius: 99px; padding: 2px 8px; color: #aaa; white-space: nowrap; }
+  #ts { margin-left: auto; font-size: 11px; color: #555; }
+
+  /* ── MAP ── */
+  #map { position: fixed; top: 52px; bottom: 0; left: 0; right: 340px; z-index: 1; }
+
+  /* ── SIDEBAR ── */
+  #sidebar {
+    position: fixed; top: 52px; right: 0; bottom: 0; width: 340px; z-index: 1000;
+    background: #111; border-left: 1px solid #222;
+    display: flex; flex-direction: column; overflow: hidden;
+  }
+  #sidebar-tabs { display: flex; border-bottom: 1px solid #222; }
+  .stab {
+    flex: 1; padding: 10px 6px; text-align: center; font-size: 12px;
+    cursor: pointer; color: #666; border-bottom: 2px solid transparent;
+    transition: color .2s, border-color .2s;
+  }
+  .stab.active { color: #e8e8e8; border-bottom-color: #4da6ff; }
+  .stab:hover:not(.active) { color: #aaa; }
+
+  .tab-panel { display: none; flex: 1; overflow-y: auto; padding: 10px; }
+  .tab-panel.active { display: block; }
+
+  /* filter tab */
+  .fsect { margin-bottom: 16px; }
+  .fsect h3 { font-size: 11px; text-transform: uppercase; letter-spacing: .8px; color: #555; margin-bottom: 8px; }
+
+  .dev-toggle {
+    display: flex; align-items: center; gap: 8px;
+    padding: 8px 10px; border-radius: 6px; cursor: pointer;
+    border: 1px solid #2a2a2a; margin-bottom: 6px;
+    transition: background .15s;
+  }
+  .dev-toggle:hover { background: #1a1a1a; }
+  .dev-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+  .dev-toggle label { font-size: 13px; cursor: pointer; flex: 1; }
+  .dev-toggle input { cursor: pointer; accent-color: #4da6ff; }
+
+  .legend { margin-top: 4px; }
+  .leg-row { display: flex; align-items: center; gap: 8px; padding: 4px 2px; font-size: 12px; color: #aaa; }
+  .leg-swatch { width: 14px; height: 14px; border-radius: 50%; flex-shrink: 0; }
+
+  /* stats tab */
+  .stat-card {
+    background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 8px;
+    padding: 12px; margin-bottom: 8px;
+  }
+  .stat-card .sc-val { font-size: 28px; font-weight: 700; color: #e8e8e8; }
+  .stat-card .sc-lbl { font-size: 11px; color: #666; margin-top: 2px; }
+  .stat-row { display: flex; gap: 8px; }
+  .stat-row .stat-card { flex: 1; }
+
+  .state-list { margin-top: 2px; }
+  .state-row { display: flex; justify-content: space-between; align-items: center; padding: 6px 0; border-bottom: 1px solid #1e1e1e; font-size: 12px; }
+  .state-row:last-child { border-bottom: none; }
+  .state-row .sn { color: #ccc; }
+  .state-row .sc { color: #888; }
+  .state-row .sp { font-size: 11px; color: #555; }
+
+  /* list tab */
+  .dev-card {
+    background: #161616; border: 1px solid #2a2a2a; border-radius: 8px;
+    padding: 10px 12px; margin-bottom: 6px; cursor: pointer;
+    transition: border-color .15s, background .15s;
+  }
+  .dev-card:hover { background: #1c1c1c; border-color: #3a3a3a; }
+  .dev-card .dc-name { font-size: 13px; font-weight: 600; color: #e0e0e0; margin-bottom: 2px; }
+  .dev-card .dc-city { font-size: 11px; color: #666; }
+  .dev-card .dc-price { font-size: 12px; margin-top: 5px; }
+  .dev-card .dc-dev { font-size: 10px; border-radius: 4px; padding: 1px 5px; margin-right: 5px; font-weight: 600; }
+  .dev-card .dc-dev.ARA { background: #0d2a4a; color: #4da6ff; }
+  .dev-card .dc-dev.SADASI { background: #2a1a00; color: #ff9f40; }
+
+  #list-search {
+    width: 100%; padding: 7px 10px; margin-bottom: 8px;
+    background: #1a1a1a; border: 1px solid #2a2a2a; border-radius: 6px;
+    color: #e8e8e8; font-size: 13px; outline: none;
+  }
+  #list-search::placeholder { color: #444; }
+  #list-search:focus { border-color: #4da6ff; }
+
+  /* ── POPUP ── */
+  .leaflet-popup-content-wrapper {
+    background: #151515 !important; border: 1px solid #2a2a2a !important;
+    border-radius: 10px !important; box-shadow: 0 8px 32px rgba(0,0,0,.7) !important;
+    color: #e0e0e0 !important; min-width: 240px;
+  }
+  .leaflet-popup-tip { background: #151515 !important; }
+  .leaflet-popup-content { margin: 14px 16px !important; }
+  .pu-dev { font-size: 10px; font-weight: 700; letter-spacing: .6px; border-radius: 4px; padding: 2px 6px; display: inline-block; margin-bottom: 6px; }
+  .pu-dev.ARA { background: #0d2a4a; color: #4da6ff; }
+  .pu-dev.SADASI { background: #2a1a00; color: #ff9f40; }
+  .pu-name { font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 2px; }
+  .pu-loc { font-size: 12px; color: #888; margin-bottom: 8px; }
+  .pu-price { font-size: 14px; font-weight: 700; margin-bottom: 8px; }
+  .pu-models { font-size: 11px; color: #aaa; line-height: 1.7; }
+  .pu-models strong { color: #e0e0e0; font-size: 11px; display: block; margin-bottom: 2px; }
+  .pu-link { display: inline-block; margin-top: 10px; font-size: 12px; color: #4da6ff; text-decoration: none; }
+  .pu-link:hover { text-decoration: underline; }
+  .pu-no-price { color: #666; font-size: 12px; font-style: italic; }
+
+  /* ── MARKER ICONS ── */
+  .wr-marker {
+    width: 32px; height: 32px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px; font-weight: 700; color: #fff;
+    border: 2px solid rgba(255,255,255,.25);
+    box-shadow: 0 2px 8px rgba(0,0,0,.6);
+    transition: transform .1s;
+  }
+  .wr-marker:hover { transform: scale(1.15); }
+
+  /* responsive: collapse sidebar on small screens */
+  @media (max-width: 700px) {
+    #map { right: 0; bottom: 260px; }
+    #sidebar { top: auto; width: 100%; height: 260px; left: 0; border-left: none; border-top: 1px solid #222; }
+  }
+
+  /* Leaflet dark overrides */
+  .leaflet-control-zoom a { background: #1a1a1a !important; color: #ccc !important; border-color: #333 !important; }
+  .leaflet-control-zoom a:hover { background: #252525 !important; }
+  .leaflet-control-attribution { background: rgba(0,0,0,.6) !important; color: #555 !important; }
+  .leaflet-control-attribution a { color: #666 !important; }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div id="header">
+  <h1>🏠 Mapa Inmobiliario · <span class="ara">ARA</span> &amp; <span class="sadasi">SADASI</span></h1>
+  <span class="badge" id="cnt-total">— desarrollos</span>
+  <span id="ts"></span>
+</div>
+
+<!-- MAP -->
+<div id="map"></div>
+
+<!-- SIDEBAR -->
+<div id="sidebar">
+  <div id="sidebar-tabs">
+    <div class="stab active" data-tab="filters">Filtros</div>
+    <div class="stab" data-tab="list">Lista</div>
+    <div class="stab" data-tab="stats">Stats</div>
+  </div>
+
+  <!-- FILTROS -->
+  <div id="tab-filters" class="tab-panel active">
+    <div class="fsect">
+      <h3>Desarrollador</h3>
+      <div class="dev-toggle">
+        <div class="dev-dot" style="background:#4da6ff"></div>
+        <label for="chk-ara">Casas ARA</label>
+        <input type="checkbox" id="chk-ara" checked>
+      </div>
+      <div class="dev-toggle">
+        <div class="dev-dot" style="background:#ff9f40"></div>
+        <label for="chk-sadasi">Grupo SADASI</label>
+        <input type="checkbox" id="chk-sadasi" checked>
+      </div>
+    </div>
+
+    <div class="fsect">
+      <h3>Rango de precio (MXN)</h3>
+      <div class="legend">
+        <div class="leg-row"><div class="leg-swatch" style="background:#27ae60"></div>Hasta $1,000,000</div>
+        <div class="leg-row"><div class="leg-swatch" style="background:#f1c40f"></div>$1M – $2M</div>
+        <div class="leg-row"><div class="leg-swatch" style="background:#e67e22"></div>$2M – $3M</div>
+        <div class="leg-row"><div class="leg-swatch" style="background:#e74c3c"></div>$3M – $5M</div>
+        <div class="leg-row"><div class="leg-swatch" style="background:#9b59b6"></div>Más de $5M</div>
+        <div class="leg-row"><div class="leg-swatch" style="background:#555"></div>Sin precio publicado</div>
+      </div>
+    </div>
+
+    <div class="fsect">
+      <h3>Notas</h3>
+      <p style="font-size:11px;color:#555;line-height:1.6">
+        Precios scrapeados de <a href="https://www.ara.com.mx" target="_blank" style="color:#4da6ff">ara.com.mx</a>
+        y <a href="https://www.sadasi.com" target="_blank" style="color:#ff9f40">sadasi.com</a>
+        en septiembre 2026. Pueden variar. Consulta directamente al desarrollador antes de tomar decisiones.
+      </p>
+    </div>
+  </div>
+
+  <!-- LISTA -->
+  <div id="tab-list" class="tab-panel">
+    <input type="text" id="list-search" placeholder="Buscar desarrollo, ciudad, estado…">
+    <div id="dev-list"></div>
+  </div>
+
+  <!-- STATS -->
+  <div id="tab-stats" class="tab-panel">
+    <div class="stat-row">
+      <div class="stat-card">
+        <div class="sc-val" id="st-total">—</div>
+        <div class="sc-lbl">Desarrollos totales</div>
+      </div>
+      <div class="stat-card">
+        <div class="sc-val" id="st-con-precio">—</div>
+        <div class="sc-lbl">Con precio publicado</div>
+      </div>
+    </div>
+    <div class="stat-row" style="margin-top:8px">
+      <div class="stat-card">
+        <div class="sc-val" id="st-ara">—</div>
+        <div class="sc-lbl" style="color:#4da6ff">ARA</div>
+      </div>
+      <div class="stat-card">
+        <div class="sc-val" id="st-sadasi">—</div>
+        <div class="sc-lbl" style="color:#ff9f40">SADASI</div>
+      </div>
+    </div>
+    <div class="stat-card" style="margin-top:8px">
+      <div class="sc-lbl" style="margin-bottom:6px">PRECIO MÍN. PUBLICADO</div>
+      <div class="sc-val" id="st-min-price">—</div>
+    </div>
+    <div class="stat-card">
+      <div class="sc-lbl" style="margin-bottom:6px">Desarrollos por estado</div>
+      <div class="state-list" id="state-list"></div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+'use strict';
+
+/* ── MAP INIT ── */
+const map = L.map('map', {
+  center: [22.5, -101.0],
+  zoom: 5,
+  zoomControl: true,
+  attributionControl: true
+});
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors',
+  maxZoom: 19
+}).addTo(map);
+
+/* ── STATE ── */
+let allData = [];
+let markers = [];
+let showARA = true;
+let showSADASI = true;
+
+const layerARA = L.layerGroup().addTo(map);
+const layerSADASI = L.layerGroup().addTo(map);
+
+/* ── PRICE COLOR ── */
+function priceColor(p) {
+  if (p === null) return '#555';
+  if (p < 1000000) return '#27ae60';
+  if (p < 2000000) return '#f1c40f';
+  if (p < 3000000) return '#e67e22';
+  if (p < 5000000) return '#e74c3c';
+  return '#9b59b6';
+}
+
+function fmtPrice(p) {
+  if (p === null) return null;
+  if (p >= 1000000) return '$' + (p / 1000000).toFixed(2).replace(/\.?0+$/, '') + ' M';
+  return '$' + p.toLocaleString('es-MX');
+}
+
+function priceLabel(d) {
+  if (d.precio_min === null) return '<span class="pu-no-price">Sin precio publicado</span>';
+  if (d.precio_min === d.precio_max) return '<span style="color:' + priceColor(d.precio_min) + '">' + fmtPrice(d.precio_min) + ' MXN</span>';
+  return '<span style="color:' + priceColor(d.precio_min) + '">' + fmtPrice(d.precio_min) + ' – ' + fmtPrice(d.precio_max) + ' MXN</span>';
+}
+
+/* ── POPUP HTML ── */
+function popupHtml(d) {
+  let models = '';
+  if (d.modelos && d.modelos.length) {
+    models = '<div class="pu-models"><strong>Modelos disponibles</strong>' +
+      d.modelos.map(m => m.precio
+        ? `${m.nombre}: <span style="color:${priceColor(m.precio)}">${fmtPrice(m.precio)}</span>`
+        : m.nombre
+      ).join('<br>') + '</div>';
+  }
+  return `
+    <div class="pu-dev ${d.developer}">${d.developer}</div>
+    <div class="pu-name">${d.name}</div>
+    <div class="pu-loc">📍 ${d.city}, ${d.state}</div>
+    <div class="pu-price">${priceLabel(d)}</div>
+    ${models}
+    <a href="${d.url}" target="_blank" class="pu-link">Ver en sitio oficial →</a>
+  `;
+}
+
+/* ── CREATE MARKER ── */
+function createMarker(d) {
+  const color = priceColor(d.precio_min);
+  const letter = d.developer === 'ARA' ? 'A' : 'S';
+  const borderColor = d.developer === 'ARA' ? '#4da6ff' : '#ff9f40';
+
+  const icon = L.divIcon({
+    className: '',
+    html: `<div class="wr-marker" style="background:${color};border-color:${borderColor}">${letter}</div>`,
+    iconSize: [32, 32],
+    iconAnchor: [16, 16],
+    popupAnchor: [0, -18]
+  });
+
+  const mk = L.marker([d.lat, d.lon], { icon });
+  mk.bindPopup(popupHtml(d), { maxWidth: 300, minWidth: 240 });
+  mk.devData = d;
+  return mk;
+}
+
+/* ── RENDER MARKERS ── */
+function renderMarkers() {
+  layerARA.clearLayers();
+  layerSADASI.clearLayers();
+  markers = [];
+
+  allData.forEach(d => {
+    if (d.developer === 'ARA' && !showARA) return;
+    if (d.developer === 'SADASI' && !showSADASI) return;
+    const mk = createMarker(d);
+    if (d.developer === 'ARA') mk.addTo(layerARA);
+    else mk.addTo(layerSADASI);
+    markers.push(mk);
+  });
+}
+
+/* ── DEV LIST ── */
+function renderList(query) {
+  const q = (query || '').toLowerCase();
+  const container = document.getElementById('dev-list');
+  const filtered = allData.filter(d => {
+    if (!q) return true;
+    return (d.name + d.city + d.state + d.developer).toLowerCase().includes(q);
+  }).sort((a, b) => {
+    if (a.precio_min === null && b.precio_min !== null) return 1;
+    if (b.precio_min === null && a.precio_min !== null) return -1;
+    return (a.precio_min || 0) - (b.precio_min || 0);
+  });
+
+  container.innerHTML = filtered.map(d => `
+    <div class="dev-card" data-id="${d.id}">
+      <div class="dc-name">
+        <span class="dc-dev ${d.developer}">${d.developer}</span>${d.name}
+      </div>
+      <div class="dc-city">${d.city}, ${d.state}</div>
+      <div class="dc-price">${priceLabel(d)}</div>
+    </div>
+  `).join('');
+
+  container.querySelectorAll('.dev-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const id = card.dataset.id;
+      const d = allData.find(x => x.id === id);
+      if (!d) return;
+      map.setView([d.lat, d.lon], 13, { animate: true });
+      const mk = markers.find(m => m.devData && m.devData.id === id);
+      if (mk) setTimeout(() => mk.openPopup(), 400);
+      // switch to map view on mobile
+      document.querySelectorAll('.stab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    });
+  });
+}
+
+/* ── STATS ── */
+function renderStats() {
+  const total = allData.length;
+  const conPrecio = allData.filter(d => d.precio_min !== null).length;
+  const ara = allData.filter(d => d.developer === 'ARA').length;
+  const sadasi = allData.filter(d => d.developer === 'SADASI').length;
+  const minPrice = Math.min(...allData.filter(d => d.precio_min !== null).map(d => d.precio_min));
+
+  document.getElementById('st-total').textContent = total;
+  document.getElementById('st-con-precio').textContent = conPrecio;
+  document.getElementById('st-ara').textContent = ara;
+  document.getElementById('st-sadasi').textContent = sadasi;
+  document.getElementById('st-min-price').textContent = fmtPrice(minPrice) + ' MXN';
+  document.getElementById('cnt-total').textContent = total + ' desarrollos';
+
+  // by state
+  const stateMap = {};
+  allData.forEach(d => {
+    if (!stateMap[d.state]) stateMap[d.state] = { count: 0, minP: null };
+    stateMap[d.state].count++;
+    if (d.precio_min !== null && (stateMap[d.state].minP === null || d.precio_min < stateMap[d.state].minP)) {
+      stateMap[d.state].minP = d.precio_min;
+    }
+  });
+  const states = Object.entries(stateMap).sort((a, b) => b[1].count - a[1].count);
+  document.getElementById('state-list').innerHTML = states.map(([st, info]) => `
+    <div class="state-row">
+      <span class="sn">${st}</span>
+      <span class="sc">${info.count} desa.</span>
+      <span class="sp">${info.minP ? 'desde ' + fmtPrice(info.minP) : '—'}</span>
+    </div>
+  `).join('');
+}
+
+/* ── TIMESTAMP ── */
+function renderTs(generated) {
+  if (!generated) return;
+  const d = new Date(generated);
+  document.getElementById('ts').textContent = 'Act. ' + d.toLocaleDateString('es-MX', { day: '2-digit', month: 'short', year: 'numeric' });
+}
+
+/* ── LOAD DATA ── */
+async function loadData() {
+  try {
+    const r = await fetch('./data/developments.json', { cache: 'no-store' });
+    const json = await r.json();
+    allData = json.developments || [];
+    renderTs(json.generated);
+    renderMarkers();
+    renderList('');
+    renderStats();
+  } catch(e) {
+    console.error('[InmueblesMap] Error loading data:', e);
+  }
+}
+
+/* ── TABS ── */
+document.querySelectorAll('.stab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.stab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    tab.classList.add('active');
+    const panelId = 'tab-' + tab.dataset.tab;
+    document.getElementById(panelId).classList.add('active');
+  });
+});
+
+/* ── FILTERS ── */
+document.getElementById('chk-ara').addEventListener('change', e => {
+  showARA = e.target.checked;
+  renderMarkers();
+});
+document.getElementById('chk-sadasi').addEventListener('change', e => {
+  showSADASI = e.target.checked;
+  renderMarkers();
+});
+
+/* ── SEARCH ── */
+document.getElementById('list-search').addEventListener('input', e => {
+  renderList(e.target.value);
+});
+
+/* ── START ── */
+loadData();
+</script>
+</body>
+</html>
