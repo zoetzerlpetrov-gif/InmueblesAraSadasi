@@ -1,0 +1,1200 @@
+{
+  "generated": "2026-09-07T00:00:00Z",
+  "source": "sadasi.com + ara.com.mx (scraped Sept 2026)",
+  "note": "Precios en MXN. 'precio_min' es el precio base más bajo del desarrollo. null = sin precio publicado.",
+  "developments": [
+    {
+      "id": "ara-la-florida-iii",
+      "developer": "ARA",
+      "name": "La Florida III",
+      "city": "Otzolotepec",
+      "state": "Estado de México",
+      "lat": 19.4167,
+      "lon": -99.5167,
+      "precio_min": 901965,
+      "precio_max": 1352000,
+      "modelos": [
+        {"nombre": "Amate", "precio": 901965},
+        {"nombre": "Unicornio", "precio": 1311740},
+        {"nombre": "Olivos", "precio": 1352000}
+      ],
+      "url": "https://ara.com.mx/informacion/estado-de-mexico"
+    },
+    {
+      "id": "ara-citara",
+      "developer": "ARA",
+      "name": "Citara",
+      "city": "Huehuetoca",
+      "state": "Estado de México",
+      "lat": 19.8333,
+      "lon": -99.2000,
+      "precio_min": 1060000,
+      "precio_max": 1350000,
+      "modelos": [
+        {"nombre": "Camelia", "precio": 1060000},
+        {"nombre": "Ciprés", "precio": 1350000}
+      ],
+      "url": "https://ara.com.mx/informacion/estado-de-mexico"
+    },
+    {
+      "id": "ara-argos-residencial",
+      "developer": "ARA",
+      "name": "Argos Residencial",
+      "city": "Cuautitlán Izcalli",
+      "state": "Estado de México",
+      "lat": 19.6667,
+      "lon": -99.2167,
+      "precio_min": 3200000,
+      "precio_max": 3200000,
+      "modelos": [
+        {"nombre": "Apolo Plus", "precio": 3200000}
+      ],
+      "url": "https://ara.com.mx/informacion/estado-de-mexico"
+    },
+    {
+      "id": "ara-la-escondida",
+      "developer": "ARA",
+      "name": "La Escondida Residencial",
+      "city": "Ocoyoacac",
+      "state": "Estado de México",
+      "lat": 19.2833,
+      "lon": -99.4500,
+      "precio_min": 3600000,
+      "precio_max": 5750000,
+      "modelos": [
+        {"nombre": "Arce", "precio": 3600000},
+        {"nombre": "Sauco", "precio": 4600000},
+        {"nombre": "Sándalo", "precio": 4900000},
+        {"nombre": "Galeón", "precio": 5750000}
+      ],
+      "url": "https://ara.com.mx/informacion/estado-de-mexico"
+    },
+    {
+      "id": "ara-imperio-real",
+      "developer": "ARA",
+      "name": "Imperio Real",
+      "city": "Otzolotepec (San Mateo Nopala)",
+      "state": "Estado de México",
+      "lat": 19.4200,
+      "lon": -99.5300,
+      "precio_min": 1590000,
+      "precio_max": 1890000,
+      "modelos": [
+        {"nombre": "Granada", "precio": 1590000},
+        {"nombre": "Cedro", "precio": 1830202},
+        {"nombre": "Tabachín", "precio": 1890000}
+      ],
+      "url": "https://ara.com.mx/desarrollos/estado-de-mexico/imperio-real/casas-modelo-cedro"
+    },
+    {
+      "id": "ara-cumbres-montana",
+      "developer": "ARA",
+      "name": "Cumbres de la Montaña",
+      "city": "Ixtapaluca",
+      "state": "Estado de México",
+      "lat": 19.3167,
+      "lon": -98.8833,
+      "precio_min": 886872,
+      "precio_max": 886872,
+      "modelos": [
+        {"nombre": "Gardenia", "precio": 886872}
+      ],
+      "url": "https://ara.com.mx/informacion/estado-de-mexico"
+    },
+    {
+      "id": "ara-arona-residencial",
+      "developer": "ARA",
+      "name": "Arona Residencial",
+      "city": "Zinacantepec",
+      "state": "Estado de México",
+      "lat": 19.2900,
+      "lon": -99.7500,
+      "precio_min": 2850000,
+      "precio_max": 3330000,
+      "modelos": [
+        {"nombre": "Aliso", "precio": 2850000},
+        {"nombre": "Siena", "precio": 3330000}
+      ],
+      "url": "https://ara.com.mx/informacion/estado-de-mexico"
+    },
+    {
+      "id": "ara-miranza",
+      "developer": "ARA",
+      "name": "Miranza",
+      "city": "Tlalnepantla",
+      "state": "Estado de México",
+      "lat": 19.5367,
+      "lon": -99.1900,
+      "precio_min": 3150000,
+      "precio_max": 3150000,
+      "modelos": [
+        {"nombre": "Único", "precio": 3150000},
+        {"nombre": "Zima", "precio": 3150000}
+      ],
+      "url": "https://ara.com.mx/informacion/estado-de-mexico"
+    },
+    {
+      "id": "ara-colinas-san-jose",
+      "developer": "ARA",
+      "name": "Colinas de San José II",
+      "city": "Tlalnepantla",
+      "state": "Estado de México",
+      "lat": 19.5433,
+      "lon": -99.2000,
+      "precio_min": 2450000,
+      "precio_max": 2450000,
+      "modelos": [
+        {"nombre": "Único", "precio": 2450000}
+      ],
+      "url": "https://ara.com.mx/informacion/estado-de-mexico"
+    },
+    {
+      "id": "ara-americas-v",
+      "developer": "ARA",
+      "name": "Américas V",
+      "city": "Ecatepec",
+      "state": "Estado de México",
+      "lat": 19.6033,
+      "lon": -99.0467,
+      "precio_min": 3200000,
+      "precio_max": 3200000,
+      "modelos": [
+        {"nombre": "Cárpatos", "precio": 3200000}
+      ],
+      "url": "https://ara.com.mx/informacion/estado-de-mexico"
+    },
+    {
+      "id": "ara-jardines-santa-ines",
+      "developer": "ARA",
+      "name": "Jardines de Santa Inés IV",
+      "city": "Nextlalpan",
+      "state": "Estado de México",
+      "lat": 19.7833,
+      "lon": -99.0667,
+      "precio_min": 965491,
+      "precio_max": 965491,
+      "modelos": [
+        {"nombre": "Castaño", "precio": 965491}
+      ],
+      "url": "https://ara.com.mx/informacion/estado-de-mexico"
+    },
+    {
+      "id": "ara-refugio-santa-fe",
+      "developer": "ARA",
+      "name": "Refugio Santa Fe",
+      "city": "Cuajimalpa",
+      "state": "Ciudad de México",
+      "lat": 19.3550,
+      "lon": -99.2950,
+      "precio_min": 4900000,
+      "precio_max": 4900000,
+      "modelos": [
+        {"nombre": "Departamentos Roof Garden", "precio": 4900000}
+      ],
+      "url": "https://ara.com.mx/informacion/ciudad-de-mexico"
+    },
+    {
+      "id": "ara-torre-lazaro",
+      "developer": "ARA",
+      "name": "Torre Lázaro",
+      "city": "Cuauhtémoc",
+      "state": "Ciudad de México",
+      "lat": 19.4400,
+      "lon": -99.1350,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [
+        {"nombre": "Indigo", "precio": null},
+        {"nombre": "Ambar II", "precio": null}
+      ],
+      "url": "https://ara.com.mx/informacion/ciudad-de-mexico"
+    },
+    {
+      "id": "ara-residencial-albaterra",
+      "developer": "ARA",
+      "name": "Residencial Albaterra",
+      "city": "Zapopan",
+      "state": "Jalisco",
+      "lat": 20.7500,
+      "lon": -103.4400,
+      "precio_min": 1850000,
+      "precio_max": 2710000,
+      "modelos": [
+        {"nombre": "Roble", "precio": 1850000},
+        {"nombre": "Tabachín", "precio": 2710000}
+      ],
+      "url": "https://ara.com.mx/informacion/jalisco"
+    },
+    {
+      "id": "ara-colinas-del-valle",
+      "developer": "ARA",
+      "name": "Colinas del Valle",
+      "city": "Tlajomulco de Zúñiga",
+      "state": "Jalisco",
+      "lat": 20.5167,
+      "lon": -103.4167,
+      "precio_min": 930000,
+      "precio_max": 930000,
+      "modelos": [
+        {"nombre": "Ciruelo", "precio": 930000}
+      ],
+      "url": "https://ara.com.mx/informacion/jalisco"
+    },
+    {
+      "id": "ara-dream-lagoons-rialta",
+      "developer": "ARA",
+      "name": "Dream Lagoons Rialta",
+      "city": "Apodaca",
+      "state": "Nuevo León",
+      "lat": 25.7833,
+      "lon": -100.1833,
+      "precio_min": 3990000,
+      "precio_max": 4650000,
+      "modelos": [
+        {"nombre": "Turquesa Marino PB", "precio": 3990000},
+        {"nombre": "Galeón", "precio": 4520000},
+        {"nombre": "PH Aqua", "precio": 4650000}
+      ],
+      "url": "https://ara.com.mx/informacion/nuevo-leon"
+    },
+    {
+      "id": "ara-paseos-del-roble",
+      "developer": "ARA",
+      "name": "Paseos del Roble",
+      "city": "Ciénega de Flores",
+      "state": "Nuevo León",
+      "lat": 25.9500,
+      "lon": -100.1667,
+      "precio_min": 995000,
+      "precio_max": 995000,
+      "modelos": [
+        {"nombre": "Alazán", "precio": 995000}
+      ],
+      "url": "https://ara.com.mx/informacion/nuevo-leon"
+    },
+    {
+      "id": "ara-los-arcos",
+      "developer": "ARA",
+      "name": "Los Arcos",
+      "city": "Reynosa",
+      "state": "Tamaulipas",
+      "lat": 26.0500,
+      "lon": -98.2600,
+      "precio_min": 695000,
+      "precio_max": 695000,
+      "modelos": [
+        {"nombre": "Álamo", "precio": 695000}
+      ],
+      "url": "https://ara.com.mx/informacion/tamaulipas"
+    },
+    {
+      "id": "ara-fuentes-tizayuca",
+      "developer": "ARA",
+      "name": "Fuentes de Tizayuca II",
+      "city": "Tizayuca",
+      "state": "Hidalgo",
+      "lat": 19.8367,
+      "lon": -98.9800,
+      "precio_min": 823345,
+      "precio_max": 1280000,
+      "modelos": [
+        {"nombre": "Gardenia Depto", "precio": 823345},
+        {"nombre": "Camelia", "precio": 988000},
+        {"nombre": "Alazán", "precio": 1230000},
+        {"nombre": "Ciprés", "precio": 1280000}
+      ],
+      "url": "https://ara.com.mx/informacion/hidalgo"
+    },
+    {
+      "id": "ara-los-volcanes",
+      "developer": "ARA",
+      "name": "Los Volcanes Residencial",
+      "city": "Huejotzingo",
+      "state": "Puebla",
+      "lat": 19.1600,
+      "lon": -98.3900,
+      "precio_min": 1469759,
+      "precio_max": 1618649,
+      "modelos": [
+        {"nombre": "Ciprés", "precio": 1469759},
+        {"nombre": "Xitle", "precio": 1618649}
+      ],
+      "url": "https://ara.com.mx/informacion/puebla"
+    },
+    {
+      "id": "ara-lomas-pedregal",
+      "developer": "ARA",
+      "name": "Lomas del Pedregal",
+      "city": "Puebla",
+      "state": "Puebla",
+      "lat": 19.0700,
+      "lon": -98.2350,
+      "precio_min": 1337825,
+      "precio_max": 1800000,
+      "modelos": [
+        {"nombre": "Abeto Depto", "precio": 1337825},
+        {"nombre": "Ciprés Casa", "precio": 1800000}
+      ],
+      "url": "https://ara.com.mx/informacion/puebla"
+    },
+    {
+      "id": "ara-lomas-del-volcan",
+      "developer": "ARA",
+      "name": "Lomas del Volcán",
+      "city": "Huejotzingo",
+      "state": "Puebla",
+      "lat": 19.1550,
+      "lon": -98.3850,
+      "precio_min": 860000,
+      "precio_max": 980000,
+      "modelos": [
+        {"nombre": "Pomelo P1", "precio": 860000},
+        {"nombre": "Pomelo PB", "precio": 980000}
+      ],
+      "url": "https://ara.com.mx/informacion/puebla"
+    },
+    {
+      "id": "ara-altavista",
+      "developer": "ARA",
+      "name": "Altavista Residencial",
+      "city": "Puebla",
+      "state": "Puebla",
+      "lat": 19.0720,
+      "lon": -98.2250,
+      "precio_min": 1980000,
+      "precio_max": 2600000,
+      "modelos": [
+        {"nombre": "Prototipo H Depto", "precio": 1980000},
+        {"nombre": "Parota Casa", "precio": 2600000}
+      ],
+      "url": "https://ara.com.mx/informacion/puebla"
+    },
+    {
+      "id": "ara-cumbres-barreal",
+      "developer": "ARA",
+      "name": "Cumbres Barreal",
+      "city": "San Andrés Cholula",
+      "state": "Puebla",
+      "lat": 19.0601,
+      "lon": -98.3010,
+      "precio_min": 3100000,
+      "precio_max": 3100000,
+      "modelos": [
+        {"nombre": "Alpes-Andes Depto", "precio": 3100000}
+      ],
+      "url": "https://ara.com.mx/informacion/puebla"
+    },
+    {
+      "id": "ara-cascadas-cocoyoc",
+      "developer": "ARA",
+      "name": "Cascadas Cocoyoc",
+      "city": "Yautepec (Oaxtepec)",
+      "state": "Morelos",
+      "lat": 18.9000,
+      "lon": -98.9700,
+      "precio_min": 3200000,
+      "precio_max": 6380000,
+      "modelos": [
+        {"nombre": "Sauce", "precio": 3200000},
+        {"nombre": "Catamarán II", "precio": 3330000},
+        {"nombre": "Cascada PH", "precio": 6380000}
+      ],
+      "url": "https://ara.com.mx/informacion/morelos"
+    },
+    {
+      "id": "ara-paraiso-country-club",
+      "developer": "ARA",
+      "name": "Residencial Paraíso Country Club",
+      "city": "Emiliano Zapata",
+      "state": "Morelos",
+      "lat": 18.8200,
+      "lon": -99.1200,
+      "precio_min": 6200000,
+      "precio_max": 10000000,
+      "modelos": [
+        {"nombre": "Grand Slam N1-Plus", "precio": 6200000},
+        {"nombre": "Grand Slam PB-Plus", "precio": 7300000},
+        {"nombre": "Grand Slam N7-Plus", "precio": 10000000}
+      ],
+      "url": "https://ara.com.mx/informacion/morelos"
+    },
+    {
+      "id": "ara-grand-montessino",
+      "developer": "ARA",
+      "name": "Grand Montessino",
+      "city": "Xochitepec",
+      "state": "Morelos",
+      "lat": 18.8167,
+      "lon": -99.2167,
+      "precio_min": 2210000,
+      "precio_max": 2850000,
+      "modelos": [
+        {"nombre": "Bilbao P2 Depto", "precio": 2210000},
+        {"nombre": "Sabino Casa", "precio": 2850000}
+      ],
+      "url": "https://ara.com.mx/informacion/morelos"
+    },
+    {
+      "id": "ara-los-agaves",
+      "developer": "ARA",
+      "name": "Los Agaves Residencial",
+      "city": "León",
+      "state": "Guanajuato",
+      "lat": 21.1000,
+      "lon": -101.6700,
+      "precio_min": 1876400,
+      "precio_max": 1876400,
+      "modelos": [
+        {"nombre": "Yuca", "precio": 1876400}
+      ],
+      "url": "https://ara.com.mx/informacion/guanajuato"
+    },
+    {
+      "id": "ara-puerta-paraiso-gto",
+      "developer": "ARA",
+      "name": "Puerta Paraíso Guanajuato",
+      "city": "Silao",
+      "state": "Guanajuato",
+      "lat": 20.9333,
+      "lon": -101.4167,
+      "precio_min": 1085000,
+      "precio_max": 1510000,
+      "modelos": [
+        {"nombre": "Camelia", "precio": 1085000},
+        {"nombre": "Roble", "precio": 1510000}
+      ],
+      "url": "https://ara.com.mx/informacion/guanajuato"
+    },
+    {
+      "id": "ara-izamal",
+      "developer": "ARA",
+      "name": "Izamal Residencial",
+      "city": "Cancún",
+      "state": "Quintana Roo",
+      "lat": 21.1500,
+      "lon": -86.8400,
+      "precio_min": 1970000,
+      "precio_max": 4250000,
+      "modelos": [
+        {"nombre": "Ceiba Depto", "precio": 1970000},
+        {"nombre": "Fresno Casa", "precio": 3650000},
+        {"nombre": "Navío Casa", "precio": 4250000}
+      ],
+      "url": "https://ara.com.mx/informacion/quintana-roo"
+    },
+    {
+      "id": "ara-dream-lagoons-cancun",
+      "developer": "ARA",
+      "name": "Dream Lagoons Cancún",
+      "city": "Cancún",
+      "state": "Quintana Roo",
+      "lat": 21.1600,
+      "lon": -86.8350,
+      "precio_min": 3250000,
+      "precio_max": 4950000,
+      "modelos": [
+        {"nombre": "Zafiro-Aguamarina", "precio": 3250000},
+        {"nombre": "Aguamarina PH", "precio": 4950000}
+      ],
+      "url": "https://ara.com.mx/informacion/quintana-roo"
+    },
+    {
+      "id": "ara-paseos-zazil",
+      "developer": "ARA",
+      "name": "Paseos de Zazil",
+      "city": "Cancún",
+      "state": "Quintana Roo",
+      "lat": 21.1700,
+      "lon": -86.8500,
+      "precio_min": 968000,
+      "precio_max": 1131000,
+      "modelos": [
+        {"nombre": "Ciruelo PD", "precio": 968000},
+        {"nombre": "Ciruelo PA", "precio": 1131000}
+      ],
+      "url": "https://ara.com.mx/informacion/quintana-roo"
+    },
+    {
+      "id": "ara-vista-real-ii",
+      "developer": "ARA",
+      "name": "Vista Real II",
+      "city": "Cancún",
+      "state": "Quintana Roo",
+      "lat": 21.1550,
+      "lon": -86.8600,
+      "precio_min": 1290000,
+      "precio_max": 1290000,
+      "modelos": [
+        {"nombre": "Dátil Casa", "precio": 1290000}
+      ],
+      "url": "https://ara.com.mx/informacion/quintana-roo"
+    },
+    {
+      "id": "ara-privadas-balam",
+      "developer": "ARA",
+      "name": "Privadas Balam",
+      "city": "Cancún",
+      "state": "Quintana Roo",
+      "lat": 21.1650,
+      "lon": -86.8550,
+      "precio_min": 1830000,
+      "precio_max": 1830000,
+      "modelos": [
+        {"nombre": "Dátil Casa", "precio": 1830000}
+      ],
+      "url": "https://ara.com.mx/informacion/quintana-roo"
+    },
+    {
+      "id": "ara-paseos-sisal",
+      "developer": "ARA",
+      "name": "Paseos de Sisal",
+      "city": "Playa del Carmen",
+      "state": "Quintana Roo",
+      "lat": 20.6300,
+      "lon": -87.0650,
+      "precio_min": 1000000,
+      "precio_max": 1190040,
+      "modelos": [
+        {"nombre": "Ciruelo P3", "precio": 1000000},
+        {"nombre": "Ciruelo PB", "precio": 1190040}
+      ],
+      "url": "https://ara.com.mx/informacion/quintana-roo"
+    },
+    {
+      "id": "ara-kuyaan",
+      "developer": "ARA",
+      "name": "Kuyaan Residencial",
+      "city": "Playa del Carmen",
+      "state": "Quintana Roo",
+      "lat": 20.6250,
+      "lon": -87.0800,
+      "precio_min": 1950000,
+      "precio_max": 1950000,
+      "modelos": [
+        {"nombre": "Mangle Depto", "precio": 1950000}
+      ],
+      "url": "https://ara.com.mx/informacion/quintana-roo"
+    },
+    {
+      "id": "ara-privada-las-flores",
+      "developer": "ARA",
+      "name": "Privada las Flores",
+      "city": "Playa del Carmen",
+      "state": "Quintana Roo",
+      "lat": 20.6350,
+      "lon": -87.0750,
+      "precio_min": 1365000,
+      "precio_max": 1365000,
+      "modelos": [
+        {"nombre": "Henequen Casa", "precio": 1365000}
+      ],
+      "url": "https://ara.com.mx/informacion/quintana-roo"
+    },
+    {
+      "id": "ara-amaralta",
+      "developer": "ARA",
+      "name": "Amaralta Residencial",
+      "city": "Rosarito",
+      "state": "Baja California",
+      "lat": 32.3333,
+      "lon": -117.0700,
+      "precio_min": 4650000,
+      "precio_max": 7200000,
+      "modelos": [
+        {"nombre": "Arakan Depto", "precio": 4650000},
+        {"nombre": "Altai Depto", "precio": 5450000},
+        {"nombre": "Coral Casa", "precio": 7200000}
+      ],
+      "url": "https://ara.com.mx/informacion/baja-california"
+    },
+    {
+      "id": "ara-colinas-vistamar",
+      "developer": "ARA",
+      "name": "Colinas de Vistamar",
+      "city": "Tijuana",
+      "state": "Baja California",
+      "lat": 32.5100,
+      "lon": -116.9800,
+      "precio_min": 1048507,
+      "precio_max": 1323185,
+      "modelos": [
+        {"nombre": "Naranjo P3", "precio": 1048507},
+        {"nombre": "Naranjo PB", "precio": 1323185}
+      ],
+      "url": "https://ara.com.mx/informacion/baja-california"
+    },
+    {
+      "id": "ara-puerta-al-sol",
+      "developer": "ARA",
+      "name": "Puerta al Sol",
+      "city": "Acapulco",
+      "state": "Guerrero",
+      "lat": 16.8400,
+      "lon": -99.8600,
+      "precio_min": 1791254,
+      "precio_max": 3090854,
+      "modelos": [
+        {"nombre": "Carrizo Depto", "precio": 1791254},
+        {"nombre": "Ciprés Casa", "precio": 2379805},
+        {"nombre": "Ixtle PH", "precio": 3090854}
+      ],
+      "url": "https://ara.com.mx/informacion/guerrero"
+    },
+    {
+      "id": "ara-dream-diamante",
+      "developer": "ARA",
+      "name": "Dream Diamante",
+      "city": "Acapulco",
+      "state": "Guerrero",
+      "lat": 16.8500,
+      "lon": -99.8500,
+      "precio_min": 3455000,
+      "precio_max": 4855000,
+      "modelos": [
+        {"nombre": "Perla Depto", "precio": 3455000},
+        {"nombre": "Ópalo Depto", "precio": 3925000},
+        {"nombre": "Jade Casa", "precio": 4855000}
+      ],
+      "url": "https://ara.com.mx/informacion/guerrero"
+    },
+    {
+      "id": "ara-punta-mar-diamante",
+      "developer": "ARA",
+      "name": "Punta Mar Diamante",
+      "city": "Acapulco",
+      "state": "Guerrero",
+      "lat": 16.8450,
+      "lon": -99.8450,
+      "precio_min": 996141,
+      "precio_max": 1548939,
+      "modelos": [
+        {"nombre": "Naranjo Depto", "precio": 996141},
+        {"nombre": "Manzanos Casa", "precio": 1548939}
+      ],
+      "url": "https://ara.com.mx/informacion/guerrero"
+    },
+    {
+      "id": "ara-dream-lagoons-veracruz",
+      "developer": "ARA",
+      "name": "Dream Lagoons Veracruz",
+      "city": "Veracruz",
+      "state": "Veracruz",
+      "lat": 19.1600,
+      "lon": -96.0800,
+      "precio_min": 1900000,
+      "precio_max": 3200000,
+      "modelos": [
+        {"nombre": "Marino Depto", "precio": 1900000},
+        {"nombre": "Goleta Casa", "precio": 2997000},
+        {"nombre": "Turquesa PH", "precio": 3200000}
+      ],
+      "url": "https://ara.com.mx/informacion/veracruz"
+    },
+    {
+      "id": "ara-puerta-paraiso-ver",
+      "developer": "ARA",
+      "name": "Puerta Paraíso Veracruz",
+      "city": "Veracruz",
+      "state": "Veracruz",
+      "lat": 19.1650,
+      "lon": -96.0750,
+      "precio_min": 1362000,
+      "precio_max": 1721000,
+      "modelos": [
+        {"nombre": "Abetos Depto", "precio": 1362000},
+        {"nombre": "Ciprés Plus Casa", "precio": 1721000}
+      ],
+      "url": "https://ara.com.mx/informacion/veracruz"
+    },
+    {
+      "id": "ara-haciendas-del-sur",
+      "developer": "ARA",
+      "name": "Haciendas del Sur",
+      "city": "Hermosillo",
+      "state": "Sonora",
+      "lat": 29.0729,
+      "lon": -110.9559,
+      "precio_min": 1417079,
+      "precio_max": 1417079,
+      "modelos": [
+        {"nombre": "Kino", "precio": 1417079}
+      ],
+      "url": "https://ara.com.mx/informacion/sonora"
+    },
+    {
+      "id": "sadasi-villas-montecassino",
+      "developer": "SADASI",
+      "name": "Villas de Montecassino",
+      "city": "Aguascalientes",
+      "state": "Aguascalientes",
+      "lat": 21.8933,
+      "lon": -102.2800,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-hacienda-san-marcos-ags",
+      "developer": "SADASI",
+      "name": "Hacienda San Marcos",
+      "city": "Aguascalientes",
+      "state": "Aguascalientes",
+      "lat": 21.8800,
+      "lon": -102.2900,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-cantares-ags",
+      "developer": "SADASI",
+      "name": "Cantares Residencial",
+      "city": "Aguascalientes",
+      "state": "Aguascalientes",
+      "lat": 21.8750,
+      "lon": -102.2700,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-laderas-rejon",
+      "developer": "SADASI",
+      "name": "Laderas del Rejón",
+      "city": "Chihuahua",
+      "state": "Chihuahua",
+      "lat": 28.6500,
+      "lon": -106.0700,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-hacienda-san-marcos-chih",
+      "developer": "SADASI",
+      "name": "Hacienda San Marcos",
+      "city": "Chihuahua",
+      "state": "Chihuahua",
+      "lat": 28.6400,
+      "lon": -106.0800,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-sierra-vista",
+      "developer": "SADASI",
+      "name": "Sierra Vista",
+      "city": "Ciudad Juárez",
+      "state": "Chihuahua",
+      "lat": 31.7000,
+      "lon": -106.4300,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-alboran",
+      "developer": "SADASI",
+      "name": "Alborán Residencial",
+      "city": "Ciudad Juárez",
+      "state": "Chihuahua",
+      "lat": 31.6950,
+      "lon": -106.4400,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-senda-real",
+      "developer": "SADASI",
+      "name": "Senda Real",
+      "city": "Ciudad Juárez",
+      "state": "Chihuahua",
+      "lat": 31.6850,
+      "lon": -106.4500,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-manantiales",
+      "developer": "SADASI",
+      "name": "Manantiales",
+      "city": "Torreón",
+      "state": "Coahuila",
+      "lat": 25.5550,
+      "lon": -103.4200,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-privada-vairo",
+      "developer": "SADASI",
+      "name": "Privada Vairo",
+      "city": "Torreón",
+      "state": "Coahuila",
+      "lat": 25.5500,
+      "lon": -103.4300,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-cantera-chalco",
+      "developer": "SADASI",
+      "name": "Cantera",
+      "city": "Chalco",
+      "state": "Estado de México",
+      "lat": 19.2650,
+      "lon": -98.9000,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-los-almendros",
+      "developer": "SADASI",
+      "name": "Los Almendros",
+      "city": "Chalco",
+      "state": "Estado de México",
+      "lat": 19.2700,
+      "lon": -98.8950,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-los-heroes-san-pablo",
+      "developer": "SADASI",
+      "name": "Los Héroes San Pablo",
+      "city": "Tecámac",
+      "state": "Estado de México",
+      "lat": 19.7200,
+      "lon": -98.9650,
+      "precio_min": 1183800,
+      "precio_max": 1183800,
+      "modelos": [
+        {"nombre": "Ceiba 2 Rec", "precio": 1183800}
+      ],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-paseos-bosque-2",
+      "developer": "SADASI",
+      "name": "Paseos del Bosque 2",
+      "city": "Tecámac",
+      "state": "Estado de México",
+      "lat": 19.7100,
+      "lon": -98.9700,
+      "precio_min": 3619000,
+      "precio_max": 3619000,
+      "modelos": [
+        {"nombre": "Residencial Confort", "precio": 3619000}
+      ],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-senderos-tecamac",
+      "developer": "SADASI",
+      "name": "Senderos",
+      "city": "Tecámac",
+      "state": "Estado de México",
+      "lat": 19.7150,
+      "lon": -98.9600,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-canteras-zinacantepec",
+      "developer": "SADASI",
+      "name": "Canteras",
+      "city": "Zinacantepec",
+      "state": "Estado de México",
+      "lat": 19.2750,
+      "lon": -99.7600,
+      "precio_min": 1720000,
+      "precio_max": 2326000,
+      "modelos": [
+        {"nombre": "Ámbar 2R", "precio": 1720000},
+        {"nombre": "Ámbar Plus", "precio": 1731000},
+        {"nombre": "Jade Plus", "precio": 2261000},
+        {"nombre": "Jade 3R", "precio": 2326000}
+      ],
+      "url": "https://www.sadasi.com/zinacantepec-el-estado-de-mexico/canteras"
+    },
+    {
+      "id": "sadasi-cordillera",
+      "developer": "SADASI",
+      "name": "Cordillera Residencial",
+      "city": "León",
+      "state": "Guanajuato",
+      "lat": 21.1350,
+      "lon": -101.6800,
+      "precio_min": 1570000,
+      "precio_max": 2715000,
+      "modelos": [
+        {"nombre": "Olmo Piso Alto", "precio": 1570000},
+        {"nombre": "Olmo PB", "precio": 1680000},
+        {"nombre": "Encino", "precio": 1880000},
+        {"nombre": "Ceiba", "precio": 2120000},
+        {"nombre": "Almendro", "precio": 2715000}
+      ],
+      "url": "https://www.sadasi.com/leon-guanajuato/cordillera-residencial"
+    },
+    {
+      "id": "sadasi-vinedos-2",
+      "developer": "SADASI",
+      "name": "Viñedos 2 Residencial",
+      "city": "León",
+      "state": "Guanajuato",
+      "lat": 21.1200,
+      "lon": -101.6900,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-almazara-leon",
+      "developer": "SADASI",
+      "name": "Almazara Conjunto Residencial",
+      "city": "León",
+      "state": "Guanajuato",
+      "lat": 21.1250,
+      "lon": -101.6750,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-residencial-xanthe",
+      "developer": "SADASI",
+      "name": "Residencial Xänthe",
+      "city": "Tizayuca",
+      "state": "Hidalgo",
+      "lat": 19.8400,
+      "lon": -98.9750,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-altta-condesa",
+      "developer": "SADASI",
+      "name": "Altta Condesa",
+      "city": "Juárez",
+      "state": "Nuevo León",
+      "lat": 25.6700,
+      "lon": -100.0950,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-los-heroes-cienega",
+      "developer": "SADASI",
+      "name": "Los Héroes Ciénega",
+      "city": "Ciénega de Flores",
+      "state": "Nuevo León",
+      "lat": 25.9550,
+      "lon": -100.1600,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-los-heroes-lincoln",
+      "developer": "SADASI",
+      "name": "Los Héroes Lincoln",
+      "city": "García",
+      "state": "Nuevo León",
+      "lat": 25.8200,
+      "lon": -100.5900,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-tres-cantos",
+      "developer": "SADASI",
+      "name": "Tres Cantos Residencial",
+      "city": "Puebla",
+      "state": "Puebla",
+      "lat": 19.0500,
+      "lon": -98.1900,
+      "precio_min": 1518000,
+      "precio_max": 2638000,
+      "modelos": [
+        {"nombre": "Olmo Loft", "precio": 1518000},
+        {"nombre": "Olmo Garden", "precio": 1718000},
+        {"nombre": "Colmenar", "precio": 2198000},
+        {"nombre": "Santiago", "precio": 2638000}
+      ],
+      "url": "https://www.sadasi.com/puebla-puebla/tres-cantos-residencial"
+    },
+    {
+      "id": "sadasi-la-rioja-pue",
+      "developer": "SADASI",
+      "name": "La Rioja",
+      "city": "Puebla",
+      "state": "Puebla",
+      "lat": 19.0450,
+      "lon": -98.1950,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-santa-fe-ii",
+      "developer": "SADASI",
+      "name": "Santa Fe II",
+      "city": "Corregidora",
+      "state": "Querétaro",
+      "lat": 20.5100,
+      "lon": -100.4500,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-acento-residencial",
+      "developer": "SADASI",
+      "name": "Acento Residencial",
+      "city": "El Marqués (Zibatá)",
+      "state": "Querétaro",
+      "lat": 20.5850,
+      "lon": -100.2700,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-sendas-residencial",
+      "developer": "SADASI",
+      "name": "Sendas Residencial",
+      "city": "El Marqués",
+      "state": "Querétaro",
+      "lat": 20.5900,
+      "lon": -100.2650,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-rincon-del-prado",
+      "developer": "SADASI",
+      "name": "Rincón del Prado",
+      "city": "Cancún",
+      "state": "Quintana Roo",
+      "lat": 21.1700,
+      "lon": -86.8600,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-la-rioja-2",
+      "developer": "SADASI",
+      "name": "La Rioja 2 Residencial",
+      "city": "Cancún",
+      "state": "Quintana Roo",
+      "lat": 21.1550,
+      "lon": -86.8700,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-campestre-la-joya",
+      "developer": "SADASI",
+      "name": "Campestre la Joya Residencial",
+      "city": "Playa del Carmen",
+      "state": "Quintana Roo",
+      "lat": 20.6400,
+      "lon": -87.0900,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-los-heroes-veracruz",
+      "developer": "SADASI",
+      "name": "Los Héroes Veracruz",
+      "city": "Veracruz",
+      "state": "Veracruz",
+      "lat": 19.1800,
+      "lon": -96.1200,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://www.sadasi.com"
+    },
+    {
+      "id": "sadasi-paseos-merida",
+      "developer": "SADASI",
+      "name": "Paseos de Mérida Tixcacal",
+      "city": "Mérida",
+      "state": "Yucatán",
+      "lat": 20.9500,
+      "lon": -89.6000,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://sadasiyucatan.com.mx"
+    },
+    {
+      "id": "sadasi-las-americas-merida",
+      "developer": "SADASI",
+      "name": "Las Américas",
+      "city": "Mérida",
+      "state": "Yucatán",
+      "lat": 20.9700,
+      "lon": -89.6100,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://sadasiyucatan.com.mx"
+    },
+    {
+      "id": "sadasi-los-heroes-merida",
+      "developer": "SADASI",
+      "name": "Los Héroes Mérida",
+      "city": "Mérida",
+      "state": "Yucatán",
+      "lat": 20.9600,
+      "lon": -89.5950,
+      "precio_min": null,
+      "precio_max": null,
+      "modelos": [],
+      "url": "https://sadasiyucatan.com.mx"
+    }
+  ]
+}
