@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-07T00:00:00Z",
-  "source": "sadasi.com + ara.com.mx (scraped Sept 2026)",
-  "note": "Precios en MXN. 'precio_min' es el precio base más bajo del desarrollo. null = sin precio publicado.",
+  "generated": "2026-09-08T04:11:08Z",
+  "source": "sadasi.com + ara.com.mx",
+  "note": "Precios en MXN. precio_min es el precio base más bajo. null = sin precio publicado.",
   "developments": [
     {
       "id": "ara-la-florida-iii",
@@ -14,9 +14,18 @@
       "precio_min": 901965,
       "precio_max": 1352000,
       "modelos": [
-        {"nombre": "Amate", "precio": 901965},
-        {"nombre": "Unicornio", "precio": 1311740},
-        {"nombre": "Olivos", "precio": 1352000}
+        {
+          "nombre": "Amate",
+          "precio": 901965
+        },
+        {
+          "nombre": "Unicornio",
+          "precio": 1311740
+        },
+        {
+          "nombre": "Olivos",
+          "precio": 1352000
+        }
       ],
       "url": "https://ara.com.mx/informacion/estado-de-mexico"
     },
@@ -27,12 +36,18 @@
       "city": "Huehuetoca",
       "state": "Estado de México",
       "lat": 19.8333,
-      "lon": -99.2000,
+      "lon": -99.2,
       "precio_min": 1060000,
       "precio_max": 1350000,
       "modelos": [
-        {"nombre": "Camelia", "precio": 1060000},
-        {"nombre": "Ciprés", "precio": 1350000}
+        {
+          "nombre": "Camelia",
+          "precio": 1060000
+        },
+        {
+          "nombre": "Ciprés",
+          "precio": 1350000
+        }
       ],
       "url": "https://ara.com.mx/informacion/estado-de-mexico"
     },
@@ -47,7 +62,10 @@
       "precio_min": 3200000,
       "precio_max": 3200000,
       "modelos": [
-        {"nombre": "Apolo Plus", "precio": 3200000}
+        {
+          "nombre": "Apolo Plus",
+          "precio": 3200000
+        }
       ],
       "url": "https://ara.com.mx/informacion/estado-de-mexico"
     },
@@ -58,14 +76,26 @@
       "city": "Ocoyoacac",
       "state": "Estado de México",
       "lat": 19.2833,
-      "lon": -99.4500,
+      "lon": -99.45,
       "precio_min": 3600000,
       "precio_max": 5750000,
       "modelos": [
-        {"nombre": "Arce", "precio": 3600000},
-        {"nombre": "Sauco", "precio": 4600000},
-        {"nombre": "Sándalo", "precio": 4900000},
-        {"nombre": "Galeón", "precio": 5750000}
+        {
+          "nombre": "Arce",
+          "precio": 3600000
+        },
+        {
+          "nombre": "Sauco",
+          "precio": 4600000
+        },
+        {
+          "nombre": "Sándalo",
+          "precio": 4900000
+        },
+        {
+          "nombre": "Galeón",
+          "precio": 5750000
+        }
       ],
       "url": "https://ara.com.mx/informacion/estado-de-mexico"
     },
@@ -75,14 +105,23 @@
       "name": "Imperio Real",
       "city": "Otzolotepec (San Mateo Nopala)",
       "state": "Estado de México",
-      "lat": 19.4200,
-      "lon": -99.5300,
+      "lat": 19.42,
+      "lon": -99.53,
       "precio_min": 1590000,
       "precio_max": 1890000,
       "modelos": [
-        {"nombre": "Granada", "precio": 1590000},
-        {"nombre": "Cedro", "precio": 1830202},
-        {"nombre": "Tabachín", "precio": 1890000}
+        {
+          "nombre": "Granada",
+          "precio": 1590000
+        },
+        {
+          "nombre": "Cedro",
+          "precio": 1830202
+        },
+        {
+          "nombre": "Tabachín",
+          "precio": 1890000
+        }
       ],
       "url": "https://ara.com.mx/desarrollos/estado-de-mexico/imperio-real/casas-modelo-cedro"
     },
@@ -97,7 +136,10 @@
       "precio_min": 886872,
       "precio_max": 886872,
       "modelos": [
-        {"nombre": "Gardenia", "precio": 886872}
+        {
+          "nombre": "Gardenia",
+          "precio": 886872
+        }
       ],
       "url": "https://ara.com.mx/informacion/estado-de-mexico"
     },
@@ -107,13 +149,19 @@
       "name": "Arona Residencial",
       "city": "Zinacantepec",
       "state": "Estado de México",
-      "lat": 19.2900,
-      "lon": -99.7500,
+      "lat": 19.29,
+      "lon": -99.75,
       "precio_min": 2850000,
       "precio_max": 3330000,
       "modelos": [
-        {"nombre": "Aliso", "precio": 2850000},
-        {"nombre": "Siena", "precio": 3330000}
+        {
+          "nombre": "Aliso",
+          "precio": 2850000
+        },
+        {
+          "nombre": "Siena",
+          "precio": 3330000
+        }
       ],
       "url": "https://ara.com.mx/informacion/estado-de-mexico"
     },
@@ -124,12 +172,18 @@
       "city": "Tlalnepantla",
       "state": "Estado de México",
       "lat": 19.5367,
-      "lon": -99.1900,
+      "lon": -99.19,
       "precio_min": 3150000,
       "precio_max": 3150000,
       "modelos": [
-        {"nombre": "Único", "precio": 3150000},
-        {"nombre": "Zima", "precio": 3150000}
+        {
+          "nombre": "Único",
+          "precio": 3150000
+        },
+        {
+          "nombre": "Zima",
+          "precio": 3150000
+        }
       ],
       "url": "https://ara.com.mx/informacion/estado-de-mexico"
     },
@@ -140,11 +194,14 @@
       "city": "Tlalnepantla",
       "state": "Estado de México",
       "lat": 19.5433,
-      "lon": -99.2000,
+      "lon": -99.2,
       "precio_min": 2450000,
       "precio_max": 2450000,
       "modelos": [
-        {"nombre": "Único", "precio": 2450000}
+        {
+          "nombre": "Único",
+          "precio": 2450000
+        }
       ],
       "url": "https://ara.com.mx/informacion/estado-de-mexico"
     },
@@ -159,7 +216,10 @@
       "precio_min": 3200000,
       "precio_max": 3200000,
       "modelos": [
-        {"nombre": "Cárpatos", "precio": 3200000}
+        {
+          "nombre": "Cárpatos",
+          "precio": 3200000
+        }
       ],
       "url": "https://ara.com.mx/informacion/estado-de-mexico"
     },
@@ -174,7 +234,10 @@
       "precio_min": 965491,
       "precio_max": 965491,
       "modelos": [
-        {"nombre": "Castaño", "precio": 965491}
+        {
+          "nombre": "Castaño",
+          "precio": 965491
+        }
       ],
       "url": "https://ara.com.mx/informacion/estado-de-mexico"
     },
@@ -184,12 +247,15 @@
       "name": "Refugio Santa Fe",
       "city": "Cuajimalpa",
       "state": "Ciudad de México",
-      "lat": 19.3550,
-      "lon": -99.2950,
+      "lat": 19.355,
+      "lon": -99.295,
       "precio_min": 4900000,
       "precio_max": 4900000,
       "modelos": [
-        {"nombre": "Departamentos Roof Garden", "precio": 4900000}
+        {
+          "nombre": "Departamentos Roof Garden",
+          "precio": 4900000
+        }
       ],
       "url": "https://ara.com.mx/informacion/ciudad-de-mexico"
     },
@@ -199,13 +265,19 @@
       "name": "Torre Lázaro",
       "city": "Cuauhtémoc",
       "state": "Ciudad de México",
-      "lat": 19.4400,
-      "lon": -99.1350,
+      "lat": 19.44,
+      "lon": -99.135,
       "precio_min": null,
       "precio_max": null,
       "modelos": [
-        {"nombre": "Indigo", "precio": null},
-        {"nombre": "Ambar II", "precio": null}
+        {
+          "nombre": "Indigo",
+          "precio": null
+        },
+        {
+          "nombre": "Ambar II",
+          "precio": null
+        }
       ],
       "url": "https://ara.com.mx/informacion/ciudad-de-mexico"
     },
@@ -215,13 +287,19 @@
       "name": "Residencial Albaterra",
       "city": "Zapopan",
       "state": "Jalisco",
-      "lat": 20.7500,
-      "lon": -103.4400,
+      "lat": 20.75,
+      "lon": -103.44,
       "precio_min": 1850000,
       "precio_max": 2710000,
       "modelos": [
-        {"nombre": "Roble", "precio": 1850000},
-        {"nombre": "Tabachín", "precio": 2710000}
+        {
+          "nombre": "Roble",
+          "precio": 1850000
+        },
+        {
+          "nombre": "Tabachín",
+          "precio": 2710000
+        }
       ],
       "url": "https://ara.com.mx/informacion/jalisco"
     },
@@ -236,7 +314,10 @@
       "precio_min": 930000,
       "precio_max": 930000,
       "modelos": [
-        {"nombre": "Ciruelo", "precio": 930000}
+        {
+          "nombre": "Ciruelo",
+          "precio": 930000
+        }
       ],
       "url": "https://ara.com.mx/informacion/jalisco"
     },
@@ -251,9 +332,18 @@
       "precio_min": 3990000,
       "precio_max": 4650000,
       "modelos": [
-        {"nombre": "Turquesa Marino PB", "precio": 3990000},
-        {"nombre": "Galeón", "precio": 4520000},
-        {"nombre": "PH Aqua", "precio": 4650000}
+        {
+          "nombre": "Turquesa Marino PB",
+          "precio": 3990000
+        },
+        {
+          "nombre": "Galeón",
+          "precio": 4520000
+        },
+        {
+          "nombre": "PH Aqua",
+          "precio": 4650000
+        }
       ],
       "url": "https://ara.com.mx/informacion/nuevo-leon"
     },
@@ -263,12 +353,15 @@
       "name": "Paseos del Roble",
       "city": "Ciénega de Flores",
       "state": "Nuevo León",
-      "lat": 25.9500,
+      "lat": 25.95,
       "lon": -100.1667,
       "precio_min": 995000,
       "precio_max": 995000,
       "modelos": [
-        {"nombre": "Alazán", "precio": 995000}
+        {
+          "nombre": "Alazán",
+          "precio": 995000
+        }
       ],
       "url": "https://ara.com.mx/informacion/nuevo-leon"
     },
@@ -278,12 +371,15 @@
       "name": "Los Arcos",
       "city": "Reynosa",
       "state": "Tamaulipas",
-      "lat": 26.0500,
-      "lon": -98.2600,
+      "lat": 26.05,
+      "lon": -98.26,
       "precio_min": 695000,
       "precio_max": 695000,
       "modelos": [
-        {"nombre": "Álamo", "precio": 695000}
+        {
+          "nombre": "Álamo",
+          "precio": 695000
+        }
       ],
       "url": "https://ara.com.mx/informacion/tamaulipas"
     },
@@ -294,14 +390,26 @@
       "city": "Tizayuca",
       "state": "Hidalgo",
       "lat": 19.8367,
-      "lon": -98.9800,
+      "lon": -98.98,
       "precio_min": 823345,
       "precio_max": 1280000,
       "modelos": [
-        {"nombre": "Gardenia Depto", "precio": 823345},
-        {"nombre": "Camelia", "precio": 988000},
-        {"nombre": "Alazán", "precio": 1230000},
-        {"nombre": "Ciprés", "precio": 1280000}
+        {
+          "nombre": "Gardenia Depto",
+          "precio": 823345
+        },
+        {
+          "nombre": "Camelia",
+          "precio": 988000
+        },
+        {
+          "nombre": "Alazán",
+          "precio": 1230000
+        },
+        {
+          "nombre": "Ciprés",
+          "precio": 1280000
+        }
       ],
       "url": "https://ara.com.mx/informacion/hidalgo"
     },
@@ -311,13 +419,19 @@
       "name": "Los Volcanes Residencial",
       "city": "Huejotzingo",
       "state": "Puebla",
-      "lat": 19.1600,
-      "lon": -98.3900,
+      "lat": 19.16,
+      "lon": -98.39,
       "precio_min": 1469759,
       "precio_max": 1618649,
       "modelos": [
-        {"nombre": "Ciprés", "precio": 1469759},
-        {"nombre": "Xitle", "precio": 1618649}
+        {
+          "nombre": "Ciprés",
+          "precio": 1469759
+        },
+        {
+          "nombre": "Xitle",
+          "precio": 1618649
+        }
       ],
       "url": "https://ara.com.mx/informacion/puebla"
     },
@@ -327,13 +441,19 @@
       "name": "Lomas del Pedregal",
       "city": "Puebla",
       "state": "Puebla",
-      "lat": 19.0700,
-      "lon": -98.2350,
+      "lat": 19.07,
+      "lon": -98.235,
       "precio_min": 1337825,
       "precio_max": 1800000,
       "modelos": [
-        {"nombre": "Abeto Depto", "precio": 1337825},
-        {"nombre": "Ciprés Casa", "precio": 1800000}
+        {
+          "nombre": "Abeto Depto",
+          "precio": 1337825
+        },
+        {
+          "nombre": "Ciprés Casa",
+          "precio": 1800000
+        }
       ],
       "url": "https://ara.com.mx/informacion/puebla"
     },
@@ -343,13 +463,19 @@
       "name": "Lomas del Volcán",
       "city": "Huejotzingo",
       "state": "Puebla",
-      "lat": 19.1550,
-      "lon": -98.3850,
+      "lat": 19.155,
+      "lon": -98.385,
       "precio_min": 860000,
       "precio_max": 980000,
       "modelos": [
-        {"nombre": "Pomelo P1", "precio": 860000},
-        {"nombre": "Pomelo PB", "precio": 980000}
+        {
+          "nombre": "Pomelo P1",
+          "precio": 860000
+        },
+        {
+          "nombre": "Pomelo PB",
+          "precio": 980000
+        }
       ],
       "url": "https://ara.com.mx/informacion/puebla"
     },
@@ -359,13 +485,19 @@
       "name": "Altavista Residencial",
       "city": "Puebla",
       "state": "Puebla",
-      "lat": 19.0720,
-      "lon": -98.2250,
+      "lat": 19.072,
+      "lon": -98.225,
       "precio_min": 1980000,
       "precio_max": 2600000,
       "modelos": [
-        {"nombre": "Prototipo H Depto", "precio": 1980000},
-        {"nombre": "Parota Casa", "precio": 2600000}
+        {
+          "nombre": "Prototipo H Depto",
+          "precio": 1980000
+        },
+        {
+          "nombre": "Parota Casa",
+          "precio": 2600000
+        }
       ],
       "url": "https://ara.com.mx/informacion/puebla"
     },
@@ -376,11 +508,14 @@
       "city": "San Andrés Cholula",
       "state": "Puebla",
       "lat": 19.0601,
-      "lon": -98.3010,
+      "lon": -98.301,
       "precio_min": 3100000,
       "precio_max": 3100000,
       "modelos": [
-        {"nombre": "Alpes-Andes Depto", "precio": 3100000}
+        {
+          "nombre": "Alpes-Andes Depto",
+          "precio": 3100000
+        }
       ],
       "url": "https://ara.com.mx/informacion/puebla"
     },
@@ -390,14 +525,23 @@
       "name": "Cascadas Cocoyoc",
       "city": "Yautepec (Oaxtepec)",
       "state": "Morelos",
-      "lat": 18.9000,
-      "lon": -98.9700,
+      "lat": 18.9,
+      "lon": -98.97,
       "precio_min": 3200000,
       "precio_max": 6380000,
       "modelos": [
-        {"nombre": "Sauce", "precio": 3200000},
-        {"nombre": "Catamarán II", "precio": 3330000},
-        {"nombre": "Cascada PH", "precio": 6380000}
+        {
+          "nombre": "Sauce",
+          "precio": 3200000
+        },
+        {
+          "nombre": "Catamarán II",
+          "precio": 3330000
+        },
+        {
+          "nombre": "Cascada PH",
+          "precio": 6380000
+        }
       ],
       "url": "https://ara.com.mx/informacion/morelos"
     },
@@ -407,14 +551,23 @@
       "name": "Residencial Paraíso Country Club",
       "city": "Emiliano Zapata",
       "state": "Morelos",
-      "lat": 18.8200,
-      "lon": -99.1200,
+      "lat": 18.82,
+      "lon": -99.12,
       "precio_min": 6200000,
       "precio_max": 10000000,
       "modelos": [
-        {"nombre": "Grand Slam N1-Plus", "precio": 6200000},
-        {"nombre": "Grand Slam PB-Plus", "precio": 7300000},
-        {"nombre": "Grand Slam N7-Plus", "precio": 10000000}
+        {
+          "nombre": "Grand Slam N1-Plus",
+          "precio": 6200000
+        },
+        {
+          "nombre": "Grand Slam PB-Plus",
+          "precio": 7300000
+        },
+        {
+          "nombre": "Grand Slam N7-Plus",
+          "precio": 10000000
+        }
       ],
       "url": "https://ara.com.mx/informacion/morelos"
     },
@@ -429,8 +582,14 @@
       "precio_min": 2210000,
       "precio_max": 2850000,
       "modelos": [
-        {"nombre": "Bilbao P2 Depto", "precio": 2210000},
-        {"nombre": "Sabino Casa", "precio": 2850000}
+        {
+          "nombre": "Bilbao P2 Depto",
+          "precio": 2210000
+        },
+        {
+          "nombre": "Sabino Casa",
+          "precio": 2850000
+        }
       ],
       "url": "https://ara.com.mx/informacion/morelos"
     },
@@ -440,12 +599,15 @@
       "name": "Los Agaves Residencial",
       "city": "León",
       "state": "Guanajuato",
-      "lat": 21.1000,
-      "lon": -101.6700,
+      "lat": 21.1,
+      "lon": -101.67,
       "precio_min": 1876400,
       "precio_max": 1876400,
       "modelos": [
-        {"nombre": "Yuca", "precio": 1876400}
+        {
+          "nombre": "Yuca",
+          "precio": 1876400
+        }
       ],
       "url": "https://ara.com.mx/informacion/guanajuato"
     },
@@ -460,8 +622,14 @@
       "precio_min": 1085000,
       "precio_max": 1510000,
       "modelos": [
-        {"nombre": "Camelia", "precio": 1085000},
-        {"nombre": "Roble", "precio": 1510000}
+        {
+          "nombre": "Camelia",
+          "precio": 1085000
+        },
+        {
+          "nombre": "Roble",
+          "precio": 1510000
+        }
       ],
       "url": "https://ara.com.mx/informacion/guanajuato"
     },
@@ -471,14 +639,23 @@
       "name": "Izamal Residencial",
       "city": "Cancún",
       "state": "Quintana Roo",
-      "lat": 21.1500,
-      "lon": -86.8400,
+      "lat": 21.15,
+      "lon": -86.84,
       "precio_min": 1970000,
       "precio_max": 4250000,
       "modelos": [
-        {"nombre": "Ceiba Depto", "precio": 1970000},
-        {"nombre": "Fresno Casa", "precio": 3650000},
-        {"nombre": "Navío Casa", "precio": 4250000}
+        {
+          "nombre": "Ceiba Depto",
+          "precio": 1970000
+        },
+        {
+          "nombre": "Fresno Casa",
+          "precio": 3650000
+        },
+        {
+          "nombre": "Navío Casa",
+          "precio": 4250000
+        }
       ],
       "url": "https://ara.com.mx/informacion/quintana-roo"
     },
@@ -488,13 +665,19 @@
       "name": "Dream Lagoons Cancún",
       "city": "Cancún",
       "state": "Quintana Roo",
-      "lat": 21.1600,
-      "lon": -86.8350,
+      "lat": 21.16,
+      "lon": -86.835,
       "precio_min": 3250000,
       "precio_max": 4950000,
       "modelos": [
-        {"nombre": "Zafiro-Aguamarina", "precio": 3250000},
-        {"nombre": "Aguamarina PH", "precio": 4950000}
+        {
+          "nombre": "Zafiro-Aguamarina",
+          "precio": 3250000
+        },
+        {
+          "nombre": "Aguamarina PH",
+          "precio": 4950000
+        }
       ],
       "url": "https://ara.com.mx/informacion/quintana-roo"
     },
@@ -504,13 +687,19 @@
       "name": "Paseos de Zazil",
       "city": "Cancún",
       "state": "Quintana Roo",
-      "lat": 21.1700,
-      "lon": -86.8500,
+      "lat": 21.17,
+      "lon": -86.85,
       "precio_min": 968000,
       "precio_max": 1131000,
       "modelos": [
-        {"nombre": "Ciruelo PD", "precio": 968000},
-        {"nombre": "Ciruelo PA", "precio": 1131000}
+        {
+          "nombre": "Ciruelo PD",
+          "precio": 968000
+        },
+        {
+          "nombre": "Ciruelo PA",
+          "precio": 1131000
+        }
       ],
       "url": "https://ara.com.mx/informacion/quintana-roo"
     },
@@ -520,12 +709,15 @@
       "name": "Vista Real II",
       "city": "Cancún",
       "state": "Quintana Roo",
-      "lat": 21.1550,
-      "lon": -86.8600,
+      "lat": 21.155,
+      "lon": -86.86,
       "precio_min": 1290000,
       "precio_max": 1290000,
       "modelos": [
-        {"nombre": "Dátil Casa", "precio": 1290000}
+        {
+          "nombre": "Dátil Casa",
+          "precio": 1290000
+        }
       ],
       "url": "https://ara.com.mx/informacion/quintana-roo"
     },
@@ -535,12 +727,15 @@
       "name": "Privadas Balam",
       "city": "Cancún",
       "state": "Quintana Roo",
-      "lat": 21.1650,
-      "lon": -86.8550,
+      "lat": 21.165,
+      "lon": -86.855,
       "precio_min": 1830000,
       "precio_max": 1830000,
       "modelos": [
-        {"nombre": "Dátil Casa", "precio": 1830000}
+        {
+          "nombre": "Dátil Casa",
+          "precio": 1830000
+        }
       ],
       "url": "https://ara.com.mx/informacion/quintana-roo"
     },
@@ -550,13 +745,19 @@
       "name": "Paseos de Sisal",
       "city": "Playa del Carmen",
       "state": "Quintana Roo",
-      "lat": 20.6300,
-      "lon": -87.0650,
+      "lat": 20.63,
+      "lon": -87.065,
       "precio_min": 1000000,
       "precio_max": 1190040,
       "modelos": [
-        {"nombre": "Ciruelo P3", "precio": 1000000},
-        {"nombre": "Ciruelo PB", "precio": 1190040}
+        {
+          "nombre": "Ciruelo P3",
+          "precio": 1000000
+        },
+        {
+          "nombre": "Ciruelo PB",
+          "precio": 1190040
+        }
       ],
       "url": "https://ara.com.mx/informacion/quintana-roo"
     },
@@ -566,12 +767,15 @@
       "name": "Kuyaan Residencial",
       "city": "Playa del Carmen",
       "state": "Quintana Roo",
-      "lat": 20.6250,
-      "lon": -87.0800,
+      "lat": 20.625,
+      "lon": -87.08,
       "precio_min": 1950000,
       "precio_max": 1950000,
       "modelos": [
-        {"nombre": "Mangle Depto", "precio": 1950000}
+        {
+          "nombre": "Mangle Depto",
+          "precio": 1950000
+        }
       ],
       "url": "https://ara.com.mx/informacion/quintana-roo"
     },
@@ -581,12 +785,15 @@
       "name": "Privada las Flores",
       "city": "Playa del Carmen",
       "state": "Quintana Roo",
-      "lat": 20.6350,
-      "lon": -87.0750,
+      "lat": 20.635,
+      "lon": -87.075,
       "precio_min": 1365000,
       "precio_max": 1365000,
       "modelos": [
-        {"nombre": "Henequen Casa", "precio": 1365000}
+        {
+          "nombre": "Henequen Casa",
+          "precio": 1365000
+        }
       ],
       "url": "https://ara.com.mx/informacion/quintana-roo"
     },
@@ -597,13 +804,22 @@
       "city": "Rosarito",
       "state": "Baja California",
       "lat": 32.3333,
-      "lon": -117.0700,
+      "lon": -117.07,
       "precio_min": 4650000,
       "precio_max": 7200000,
       "modelos": [
-        {"nombre": "Arakan Depto", "precio": 4650000},
-        {"nombre": "Altai Depto", "precio": 5450000},
-        {"nombre": "Coral Casa", "precio": 7200000}
+        {
+          "nombre": "Arakan Depto",
+          "precio": 4650000
+        },
+        {
+          "nombre": "Altai Depto",
+          "precio": 5450000
+        },
+        {
+          "nombre": "Coral Casa",
+          "precio": 7200000
+        }
       ],
       "url": "https://ara.com.mx/informacion/baja-california"
     },
@@ -613,13 +829,19 @@
       "name": "Colinas de Vistamar",
       "city": "Tijuana",
       "state": "Baja California",
-      "lat": 32.5100,
-      "lon": -116.9800,
+      "lat": 32.51,
+      "lon": -116.98,
       "precio_min": 1048507,
       "precio_max": 1323185,
       "modelos": [
-        {"nombre": "Naranjo P3", "precio": 1048507},
-        {"nombre": "Naranjo PB", "precio": 1323185}
+        {
+          "nombre": "Naranjo P3",
+          "precio": 1048507
+        },
+        {
+          "nombre": "Naranjo PB",
+          "precio": 1323185
+        }
       ],
       "url": "https://ara.com.mx/informacion/baja-california"
     },
@@ -629,14 +851,23 @@
       "name": "Puerta al Sol",
       "city": "Acapulco",
       "state": "Guerrero",
-      "lat": 16.8400,
-      "lon": -99.8600,
+      "lat": 16.84,
+      "lon": -99.86,
       "precio_min": 1791254,
       "precio_max": 3090854,
       "modelos": [
-        {"nombre": "Carrizo Depto", "precio": 1791254},
-        {"nombre": "Ciprés Casa", "precio": 2379805},
-        {"nombre": "Ixtle PH", "precio": 3090854}
+        {
+          "nombre": "Carrizo Depto",
+          "precio": 1791254
+        },
+        {
+          "nombre": "Ciprés Casa",
+          "precio": 2379805
+        },
+        {
+          "nombre": "Ixtle PH",
+          "precio": 3090854
+        }
       ],
       "url": "https://ara.com.mx/informacion/guerrero"
     },
@@ -646,14 +877,23 @@
       "name": "Dream Diamante",
       "city": "Acapulco",
       "state": "Guerrero",
-      "lat": 16.8500,
-      "lon": -99.8500,
+      "lat": 16.85,
+      "lon": -99.85,
       "precio_min": 3455000,
       "precio_max": 4855000,
       "modelos": [
-        {"nombre": "Perla Depto", "precio": 3455000},
-        {"nombre": "Ópalo Depto", "precio": 3925000},
-        {"nombre": "Jade Casa", "precio": 4855000}
+        {
+          "nombre": "Perla Depto",
+          "precio": 3455000
+        },
+        {
+          "nombre": "Ópalo Depto",
+          "precio": 3925000
+        },
+        {
+          "nombre": "Jade Casa",
+          "precio": 4855000
+        }
       ],
       "url": "https://ara.com.mx/informacion/guerrero"
     },
@@ -663,13 +903,19 @@
       "name": "Punta Mar Diamante",
       "city": "Acapulco",
       "state": "Guerrero",
-      "lat": 16.8450,
-      "lon": -99.8450,
+      "lat": 16.845,
+      "lon": -99.845,
       "precio_min": 996141,
       "precio_max": 1548939,
       "modelos": [
-        {"nombre": "Naranjo Depto", "precio": 996141},
-        {"nombre": "Manzanos Casa", "precio": 1548939}
+        {
+          "nombre": "Naranjo Depto",
+          "precio": 996141
+        },
+        {
+          "nombre": "Manzanos Casa",
+          "precio": 1548939
+        }
       ],
       "url": "https://ara.com.mx/informacion/guerrero"
     },
@@ -679,14 +925,23 @@
       "name": "Dream Lagoons Veracruz",
       "city": "Veracruz",
       "state": "Veracruz",
-      "lat": 19.1600,
-      "lon": -96.0800,
+      "lat": 19.16,
+      "lon": -96.08,
       "precio_min": 1900000,
       "precio_max": 3200000,
       "modelos": [
-        {"nombre": "Marino Depto", "precio": 1900000},
-        {"nombre": "Goleta Casa", "precio": 2997000},
-        {"nombre": "Turquesa PH", "precio": 3200000}
+        {
+          "nombre": "Marino Depto",
+          "precio": 1900000
+        },
+        {
+          "nombre": "Goleta Casa",
+          "precio": 2997000
+        },
+        {
+          "nombre": "Turquesa PH",
+          "precio": 3200000
+        }
       ],
       "url": "https://ara.com.mx/informacion/veracruz"
     },
@@ -696,13 +951,19 @@
       "name": "Puerta Paraíso Veracruz",
       "city": "Veracruz",
       "state": "Veracruz",
-      "lat": 19.1650,
-      "lon": -96.0750,
+      "lat": 19.165,
+      "lon": -96.075,
       "precio_min": 1362000,
       "precio_max": 1721000,
       "modelos": [
-        {"nombre": "Abetos Depto", "precio": 1362000},
-        {"nombre": "Ciprés Plus Casa", "precio": 1721000}
+        {
+          "nombre": "Abetos Depto",
+          "precio": 1362000
+        },
+        {
+          "nombre": "Ciprés Plus Casa",
+          "precio": 1721000
+        }
       ],
       "url": "https://ara.com.mx/informacion/veracruz"
     },
@@ -717,7 +978,10 @@
       "precio_min": 1417079,
       "precio_max": 1417079,
       "modelos": [
-        {"nombre": "Kino", "precio": 1417079}
+        {
+          "nombre": "Kino",
+          "precio": 1417079
+        }
       ],
       "url": "https://ara.com.mx/informacion/sonora"
     },
@@ -728,7 +992,7 @@
       "city": "Aguascalientes",
       "state": "Aguascalientes",
       "lat": 21.8933,
-      "lon": -102.2800,
+      "lon": -102.28,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -740,8 +1004,8 @@
       "name": "Hacienda San Marcos",
       "city": "Aguascalientes",
       "state": "Aguascalientes",
-      "lat": 21.8800,
-      "lon": -102.2900,
+      "lat": 21.88,
+      "lon": -102.29,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -753,8 +1017,8 @@
       "name": "Cantares Residencial",
       "city": "Aguascalientes",
       "state": "Aguascalientes",
-      "lat": 21.8750,
-      "lon": -102.2700,
+      "lat": 21.875,
+      "lon": -102.27,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -766,8 +1030,8 @@
       "name": "Laderas del Rejón",
       "city": "Chihuahua",
       "state": "Chihuahua",
-      "lat": 28.6500,
-      "lon": -106.0700,
+      "lat": 28.65,
+      "lon": -106.07,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -779,8 +1043,8 @@
       "name": "Hacienda San Marcos",
       "city": "Chihuahua",
       "state": "Chihuahua",
-      "lat": 28.6400,
-      "lon": -106.0800,
+      "lat": 28.64,
+      "lon": -106.08,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -792,8 +1056,8 @@
       "name": "Sierra Vista",
       "city": "Ciudad Juárez",
       "state": "Chihuahua",
-      "lat": 31.7000,
-      "lon": -106.4300,
+      "lat": 31.7,
+      "lon": -106.43,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -805,8 +1069,8 @@
       "name": "Alborán Residencial",
       "city": "Ciudad Juárez",
       "state": "Chihuahua",
-      "lat": 31.6950,
-      "lon": -106.4400,
+      "lat": 31.695,
+      "lon": -106.44,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -818,8 +1082,8 @@
       "name": "Senda Real",
       "city": "Ciudad Juárez",
       "state": "Chihuahua",
-      "lat": 31.6850,
-      "lon": -106.4500,
+      "lat": 31.685,
+      "lon": -106.45,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -831,8 +1095,8 @@
       "name": "Manantiales",
       "city": "Torreón",
       "state": "Coahuila",
-      "lat": 25.5550,
-      "lon": -103.4200,
+      "lat": 25.555,
+      "lon": -103.42,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -844,8 +1108,8 @@
       "name": "Privada Vairo",
       "city": "Torreón",
       "state": "Coahuila",
-      "lat": 25.5500,
-      "lon": -103.4300,
+      "lat": 25.55,
+      "lon": -103.43,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -857,8 +1121,8 @@
       "name": "Cantera",
       "city": "Chalco",
       "state": "Estado de México",
-      "lat": 19.2650,
-      "lon": -98.9000,
+      "lat": 19.265,
+      "lon": -98.9,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -870,8 +1134,8 @@
       "name": "Los Almendros",
       "city": "Chalco",
       "state": "Estado de México",
-      "lat": 19.2700,
-      "lon": -98.8950,
+      "lat": 19.27,
+      "lon": -98.895,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -883,12 +1147,15 @@
       "name": "Los Héroes San Pablo",
       "city": "Tecámac",
       "state": "Estado de México",
-      "lat": 19.7200,
-      "lon": -98.9650,
+      "lat": 19.72,
+      "lon": -98.965,
       "precio_min": 1183800,
       "precio_max": 1183800,
       "modelos": [
-        {"nombre": "Ceiba 2 Rec", "precio": 1183800}
+        {
+          "nombre": "Ceiba 2 Rec",
+          "precio": 1183800
+        }
       ],
       "url": "https://www.sadasi.com"
     },
@@ -898,12 +1165,15 @@
       "name": "Paseos del Bosque 2",
       "city": "Tecámac",
       "state": "Estado de México",
-      "lat": 19.7100,
-      "lon": -98.9700,
+      "lat": 19.71,
+      "lon": -98.97,
       "precio_min": 3619000,
       "precio_max": 3619000,
       "modelos": [
-        {"nombre": "Residencial Confort", "precio": 3619000}
+        {
+          "nombre": "Residencial Confort",
+          "precio": 3619000
+        }
       ],
       "url": "https://www.sadasi.com"
     },
@@ -913,8 +1183,8 @@
       "name": "Senderos",
       "city": "Tecámac",
       "state": "Estado de México",
-      "lat": 19.7150,
-      "lon": -98.9600,
+      "lat": 19.715,
+      "lon": -98.96,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -926,15 +1196,27 @@
       "name": "Canteras",
       "city": "Zinacantepec",
       "state": "Estado de México",
-      "lat": 19.2750,
-      "lon": -99.7600,
+      "lat": 19.275,
+      "lon": -99.76,
       "precio_min": 1720000,
       "precio_max": 2326000,
       "modelos": [
-        {"nombre": "Ámbar 2R", "precio": 1720000},
-        {"nombre": "Ámbar Plus", "precio": 1731000},
-        {"nombre": "Jade Plus", "precio": 2261000},
-        {"nombre": "Jade 3R", "precio": 2326000}
+        {
+          "nombre": "Ámbar 2R",
+          "precio": 1720000
+        },
+        {
+          "nombre": "Ámbar Plus",
+          "precio": 1731000
+        },
+        {
+          "nombre": "Jade Plus",
+          "precio": 2261000
+        },
+        {
+          "nombre": "Jade 3R",
+          "precio": 2326000
+        }
       ],
       "url": "https://www.sadasi.com/zinacantepec-el-estado-de-mexico/canteras"
     },
@@ -944,16 +1226,31 @@
       "name": "Cordillera Residencial",
       "city": "León",
       "state": "Guanajuato",
-      "lat": 21.1350,
-      "lon": -101.6800,
+      "lat": 21.135,
+      "lon": -101.68,
       "precio_min": 1570000,
       "precio_max": 2715000,
       "modelos": [
-        {"nombre": "Olmo Piso Alto", "precio": 1570000},
-        {"nombre": "Olmo PB", "precio": 1680000},
-        {"nombre": "Encino", "precio": 1880000},
-        {"nombre": "Ceiba", "precio": 2120000},
-        {"nombre": "Almendro", "precio": 2715000}
+        {
+          "nombre": "Olmo Piso Alto",
+          "precio": 1570000
+        },
+        {
+          "nombre": "Olmo PB",
+          "precio": 1680000
+        },
+        {
+          "nombre": "Encino",
+          "precio": 1880000
+        },
+        {
+          "nombre": "Ceiba",
+          "precio": 2120000
+        },
+        {
+          "nombre": "Almendro",
+          "precio": 2715000
+        }
       ],
       "url": "https://www.sadasi.com/leon-guanajuato/cordillera-residencial"
     },
@@ -963,8 +1260,8 @@
       "name": "Viñedos 2 Residencial",
       "city": "León",
       "state": "Guanajuato",
-      "lat": 21.1200,
-      "lon": -101.6900,
+      "lat": 21.12,
+      "lon": -101.69,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -976,8 +1273,8 @@
       "name": "Almazara Conjunto Residencial",
       "city": "León",
       "state": "Guanajuato",
-      "lat": 21.1250,
-      "lon": -101.6750,
+      "lat": 21.125,
+      "lon": -101.675,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -989,8 +1286,8 @@
       "name": "Residencial Xänthe",
       "city": "Tizayuca",
       "state": "Hidalgo",
-      "lat": 19.8400,
-      "lon": -98.9750,
+      "lat": 19.84,
+      "lon": -98.975,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -1002,8 +1299,8 @@
       "name": "Altta Condesa",
       "city": "Juárez",
       "state": "Nuevo León",
-      "lat": 25.6700,
-      "lon": -100.0950,
+      "lat": 25.67,
+      "lon": -100.095,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -1015,8 +1312,8 @@
       "name": "Los Héroes Ciénega",
       "city": "Ciénega de Flores",
       "state": "Nuevo León",
-      "lat": 25.9550,
-      "lon": -100.1600,
+      "lat": 25.955,
+      "lon": -100.16,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -1028,8 +1325,8 @@
       "name": "Los Héroes Lincoln",
       "city": "García",
       "state": "Nuevo León",
-      "lat": 25.8200,
-      "lon": -100.5900,
+      "lat": 25.82,
+      "lon": -100.59,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -1041,15 +1338,27 @@
       "name": "Tres Cantos Residencial",
       "city": "Puebla",
       "state": "Puebla",
-      "lat": 19.0500,
-      "lon": -98.1900,
+      "lat": 19.05,
+      "lon": -98.19,
       "precio_min": 1518000,
       "precio_max": 2638000,
       "modelos": [
-        {"nombre": "Olmo Loft", "precio": 1518000},
-        {"nombre": "Olmo Garden", "precio": 1718000},
-        {"nombre": "Colmenar", "precio": 2198000},
-        {"nombre": "Santiago", "precio": 2638000}
+        {
+          "nombre": "Olmo Loft",
+          "precio": 1518000
+        },
+        {
+          "nombre": "Olmo Garden",
+          "precio": 1718000
+        },
+        {
+          "nombre": "Colmenar",
+          "precio": 2198000
+        },
+        {
+          "nombre": "Santiago",
+          "precio": 2638000
+        }
       ],
       "url": "https://www.sadasi.com/puebla-puebla/tres-cantos-residencial"
     },
@@ -1059,8 +1368,8 @@
       "name": "La Rioja",
       "city": "Puebla",
       "state": "Puebla",
-      "lat": 19.0450,
-      "lon": -98.1950,
+      "lat": 19.045,
+      "lon": -98.195,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -1072,8 +1381,8 @@
       "name": "Santa Fe II",
       "city": "Corregidora",
       "state": "Querétaro",
-      "lat": 20.5100,
-      "lon": -100.4500,
+      "lat": 20.51,
+      "lon": -100.45,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -1085,8 +1394,8 @@
       "name": "Acento Residencial",
       "city": "El Marqués (Zibatá)",
       "state": "Querétaro",
-      "lat": 20.5850,
-      "lon": -100.2700,
+      "lat": 20.585,
+      "lon": -100.27,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -1098,8 +1407,8 @@
       "name": "Sendas Residencial",
       "city": "El Marqués",
       "state": "Querétaro",
-      "lat": 20.5900,
-      "lon": -100.2650,
+      "lat": 20.59,
+      "lon": -100.265,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -1111,8 +1420,8 @@
       "name": "Rincón del Prado",
       "city": "Cancún",
       "state": "Quintana Roo",
-      "lat": 21.1700,
-      "lon": -86.8600,
+      "lat": 21.17,
+      "lon": -86.86,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -1124,8 +1433,8 @@
       "name": "La Rioja 2 Residencial",
       "city": "Cancún",
       "state": "Quintana Roo",
-      "lat": 21.1550,
-      "lon": -86.8700,
+      "lat": 21.155,
+      "lon": -86.87,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -1137,8 +1446,8 @@
       "name": "Campestre la Joya Residencial",
       "city": "Playa del Carmen",
       "state": "Quintana Roo",
-      "lat": 20.6400,
-      "lon": -87.0900,
+      "lat": 20.64,
+      "lon": -87.09,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -1150,8 +1459,8 @@
       "name": "Los Héroes Veracruz",
       "city": "Veracruz",
       "state": "Veracruz",
-      "lat": 19.1800,
-      "lon": -96.1200,
+      "lat": 19.18,
+      "lon": -96.12,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -1163,8 +1472,8 @@
       "name": "Paseos de Mérida Tixcacal",
       "city": "Mérida",
       "state": "Yucatán",
-      "lat": 20.9500,
-      "lon": -89.6000,
+      "lat": 20.95,
+      "lon": -89.6,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -1176,8 +1485,8 @@
       "name": "Las Américas",
       "city": "Mérida",
       "state": "Yucatán",
-      "lat": 20.9700,
-      "lon": -89.6100,
+      "lat": 20.97,
+      "lon": -89.61,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
@@ -1189,8 +1498,8 @@
       "name": "Los Héroes Mérida",
       "city": "Mérida",
       "state": "Yucatán",
-      "lat": 20.9600,
-      "lon": -89.5950,
+      "lat": 20.96,
+      "lon": -89.595,
       "precio_min": null,
       "precio_max": null,
       "modelos": [],
