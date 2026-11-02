@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T17:56:13Z",
+  "generated": "2026-11-02T21:06:18Z",
   "source": "sadasi.com + ara.com.mx",
   "note": "Precios en MXN. precio_min es el precio base más bajo. null = sin precio publicado.",
   "developments": [
@@ -1513,8 +1513,8 @@
       "state": "Estado de México",
       "lat": 19.7,
       "lon": -99.2,
-      "precio_min": 780000,
-      "precio_max": 1350000,
+      "precio_min": 3150000,
+      "precio_max": 3150000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/estado-de-mexico"
     },
@@ -1526,8 +1526,8 @@
       "state": "Estado de México",
       "lat": 19.7,
       "lon": -99.2,
-      "precio_min": 1681715,
-      "precio_max": 2008781,
+      "precio_min": 3150000,
+      "precio_max": 3150000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/estado-de-mexico"
     },
@@ -1539,8 +1539,8 @@
       "state": "Estado de México",
       "lat": 19.7,
       "lon": -99.2,
-      "precio_min": 3200000,
-      "precio_max": 3200000,
+      "precio_min": 3150000,
+      "precio_max": 3150000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/estado-de-mexico"
     },
@@ -1552,8 +1552,8 @@
       "state": "Estado de México",
       "lat": 19.7,
       "lon": -99.2,
-      "precio_min": 1630000,
-      "precio_max": 1630000,
+      "precio_min": 3150000,
+      "precio_max": 3150000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/estado-de-mexico"
     },
@@ -1565,8 +1565,8 @@
       "state": "Estado de México",
       "lat": 19.7,
       "lon": -99.2,
-      "precio_min": 905000,
-      "precio_max": 1510000,
+      "precio_min": 3150000,
+      "precio_max": 3150000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/estado-de-mexico"
     },
@@ -1578,8 +1578,8 @@
       "state": "Estado de México",
       "lat": 19.7,
       "lon": -99.2,
-      "precio_min": 3549600,
-      "precio_max": 5750000,
+      "precio_min": 3150000,
+      "precio_max": 3150000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/estado-de-mexico"
     },
@@ -1630,8 +1630,8 @@
       "state": "Nuevo León",
       "lat": 25.67,
       "lon": -100.3,
-      "precio_min": 3990000,
-      "precio_max": 4650000,
+      "precio_min": 1050000,
+      "precio_max": 1050000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/nuevo-leon"
     },
@@ -1682,8 +1682,8 @@
       "state": "Puebla",
       "lat": 19.04,
       "lon": -98.2,
-      "precio_min": 1337825,
-      "precio_max": 1800000,
+      "precio_min": 1980000,
+      "precio_max": 2600000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/puebla"
     },
@@ -1695,8 +1695,8 @@
       "state": "Puebla",
       "lat": 19.04,
       "lon": -98.2,
-      "precio_min": 860000,
-      "precio_max": 980000,
+      "precio_min": 1980000,
+      "precio_max": 2600000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/puebla"
     },
@@ -1721,8 +1721,8 @@
       "state": "Morelos",
       "lat": 18.83,
       "lon": -99.1,
-      "precio_min": 3200000,
-      "precio_max": 6380000,
+      "precio_min": 2500000,
+      "precio_max": 2850000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/morelos"
     },
@@ -1773,8 +1773,8 @@
       "state": "Quintana Roo",
       "lat": 21.16,
       "lon": -86.85,
-      "precio_min": 2100000,
-      "precio_max": 4250000,
+      "precio_min": 1750000,
+      "precio_max": 1950000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/quintana-roo"
     },
@@ -1786,8 +1786,8 @@
       "state": "Quintana Roo",
       "lat": 21.16,
       "lon": -86.85,
-      "precio_min": 3250000,
-      "precio_max": 3250000,
+      "precio_min": 1750000,
+      "precio_max": 1950000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/quintana-roo"
     },
@@ -1799,8 +1799,8 @@
       "state": "Quintana Roo",
       "lat": 21.16,
       "lon": -86.85,
-      "precio_min": 1065000,
-      "precio_max": 1262000,
+      "precio_min": 1750000,
+      "precio_max": 1950000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/quintana-roo"
     },
@@ -1812,8 +1812,8 @@
       "state": "Quintana Roo",
       "lat": 21.16,
       "lon": -86.85,
-      "precio_min": 1000000,
-      "precio_max": 1190040,
+      "precio_min": 1750000,
+      "precio_max": 1950000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/quintana-roo"
     },
@@ -1838,8 +1838,8 @@
       "state": "Baja California",
       "lat": 32.5,
       "lon": -117.0,
-      "precio_min": 3990000,
-      "precio_max": 7200000,
+      "precio_min": 1124752,
+      "precio_max": 1142752,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/baja-california"
     },
@@ -1864,8 +1864,8 @@
       "state": "Guerrero",
       "lat": 16.85,
       "lon": -99.85,
-      "precio_min": 3160000,
-      "precio_max": 4855000,
+      "precio_min": 1221998,
+      "precio_max": 1538939,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/guerrero"
     },
@@ -1890,8 +1890,8 @@
       "state": "Guerrero",
       "lat": 16.85,
       "lon": -99.85,
-      "precio_min": 1791254,
-      "precio_max": 3090854,
+      "precio_min": 1221998,
+      "precio_max": 1538939,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/guerrero"
     },
@@ -1903,8 +1903,8 @@
       "state": "Veracruz",
       "lat": 19.17,
       "lon": -96.1,
-      "precio_min": 1900000,
-      "precio_max": 3200000,
+      "precio_min": 1285000,
+      "precio_max": 1650000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/veracruz"
     },
@@ -1942,21 +1942,8 @@
       "state": "Nayarit",
       "lat": 21.5,
       "lon": -104.9,
-      "precio_min": 1255000,
-      "precio_max": 1255000,
-      "modelos": [],
-      "url": "https://ara.com.mx/informacion/nayarit"
-    },
-    {
-      "id": "ara-nayarit-prototipos",
-      "developer": "ARA",
-      "name": "Prototipos",
-      "city": "Nayarit",
-      "state": "Nayarit",
-      "lat": 21.5,
-      "lon": -104.9,
-      "precio_min": 1561000,
-      "precio_max": 2550000,
+      "precio_min": 2792000,
+      "precio_max": 4150000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/nayarit"
     },
@@ -1972,6 +1959,32 @@
       "precio_max": 4150000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/nayarit"
+    },
+    {
+      "id": "ara-nayarit-prototipos",
+      "developer": "ARA",
+      "name": "Prototipos",
+      "city": "Nayarit",
+      "state": "Nayarit",
+      "lat": 21.5,
+      "lon": -104.9,
+      "precio_min": 2792000,
+      "precio_max": 4150000,
+      "modelos": [],
+      "url": "https://ara.com.mx/informacion/nayarit"
+    },
+    {
+      "id": "ara-guerrero-carrizo",
+      "developer": "ARA",
+      "name": "CARRIZO",
+      "city": "Guerrero",
+      "state": "Guerrero",
+      "lat": 16.85,
+      "lon": -99.85,
+      "precio_min": 1840252,
+      "precio_max": 1840252,
+      "modelos": [],
+      "url": "https://ara.com.mx/informacion/guerrero"
     }
   ]
 }
