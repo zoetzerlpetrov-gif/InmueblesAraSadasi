@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02T21:06:18Z",
+  "generated": "2026-11-09T21:45:44Z",
   "source": "sadasi.com + ara.com.mx",
   "note": "Precios en MXN. precio_min es el precio base más bajo. null = sin precio publicado.",
   "developments": [
@@ -1682,8 +1682,8 @@
       "state": "Puebla",
       "lat": 19.04,
       "lon": -98.2,
-      "precio_min": 1980000,
-      "precio_max": 2600000,
+      "precio_min": 2800000,
+      "precio_max": 2800000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/puebla"
     },
@@ -1695,8 +1695,8 @@
       "state": "Puebla",
       "lat": 19.04,
       "lon": -98.2,
-      "precio_min": 1980000,
-      "precio_max": 2600000,
+      "precio_min": 2800000,
+      "precio_max": 2800000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/puebla"
     },
@@ -1708,8 +1708,8 @@
       "state": "Puebla",
       "lat": 19.04,
       "lon": -98.2,
-      "precio_min": 1980000,
-      "precio_max": 2600000,
+      "precio_min": 2800000,
+      "precio_max": 2800000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/puebla"
     },
@@ -1734,8 +1734,8 @@
       "state": "Morelos",
       "lat": 18.83,
       "lon": -99.1,
-      "precio_min": 6200000,
-      "precio_max": 10000000,
+      "precio_min": 5600000,
+      "precio_max": 5600000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/morelos"
     },
@@ -1761,7 +1761,7 @@
       "lat": 21.12,
       "lon": -101.68,
       "precio_min": 1145000,
-      "precio_max": 1800000,
+      "precio_max": 1590000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/guanajuato"
     },
@@ -1864,7 +1864,7 @@
       "state": "Guerrero",
       "lat": 16.85,
       "lon": -99.85,
-      "precio_min": 1221998,
+      "precio_min": 845596,
       "precio_max": 1538939,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/guerrero"
@@ -1877,7 +1877,7 @@
       "state": "Guerrero",
       "lat": 16.85,
       "lon": -99.85,
-      "precio_min": 1221998,
+      "precio_min": 845596,
       "precio_max": 1538939,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/guerrero"
@@ -1890,7 +1890,7 @@
       "state": "Guerrero",
       "lat": 16.85,
       "lon": -99.85,
-      "precio_min": 1221998,
+      "precio_min": 845596,
       "precio_max": 1538939,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/guerrero"
