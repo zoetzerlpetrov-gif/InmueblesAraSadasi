@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-09T21:45:44Z",
+  "generated": "2026-11-16T21:26:31Z",
   "source": "sadasi.com + ara.com.mx",
   "note": "Precios en MXN. precio_min es el precio base más bajo. null = sin precio publicado.",
   "developments": [
@@ -1903,8 +1903,8 @@
       "state": "Veracruz",
       "lat": 19.17,
       "lon": -96.1,
-      "precio_min": 1285000,
-      "precio_max": 1650000,
+      "precio_min": 1900000,
+      "precio_max": 3200000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/veracruz"
     },
@@ -1916,8 +1916,8 @@
       "state": "Veracruz",
       "lat": 19.17,
       "lon": -96.1,
-      "precio_min": 1285000,
-      "precio_max": 1650000,
+      "precio_min": 1900000,
+      "precio_max": 3200000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/veracruz"
     },
