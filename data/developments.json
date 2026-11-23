@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16T21:26:31Z",
+  "generated": "2026-11-23T23:04:46Z",
   "source": "sadasi.com + ara.com.mx",
   "note": "Precios en MXN. precio_min es el precio base más bajo. null = sin precio publicado.",
   "developments": [
@@ -1721,8 +1721,8 @@
       "state": "Morelos",
       "lat": 18.83,
       "lon": -99.1,
-      "precio_min": 2500000,
-      "precio_max": 2850000,
+      "precio_min": 2210000,
+      "precio_max": 2500000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/morelos"
     },
@@ -1734,8 +1734,8 @@
       "state": "Morelos",
       "lat": 18.83,
       "lon": -99.1,
-      "precio_min": 5600000,
-      "precio_max": 5600000,
+      "precio_min": 6200000,
+      "precio_max": 6200000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/morelos"
     },
@@ -1747,8 +1747,8 @@
       "state": "Morelos",
       "lat": 18.83,
       "lon": -99.1,
-      "precio_min": 2500000,
-      "precio_max": 2850000,
+      "precio_min": 2210000,
+      "precio_max": 2500000,
       "modelos": [],
       "url": "https://ara.com.mx/informacion/morelos"
     },
